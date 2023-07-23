@@ -101,9 +101,9 @@ wget -O sshws "https://raw.githubusercontent.com/asutunnel/asu/main/ssh/sshws.sh
 wget -O status "https://raw.githubusercontent.com/asutunnel/asu/main/status.sh"
 wget https://raw.githubusercontent.com/asutunnel/asu/main/backup/set-br.sh &&  chmod +x set-br.sh && ./set-br.sh
 wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/asutunnel/asu/main/menu/menu.sh" && chmod +x /usr/bin/menu
-wget -q -O /usr/bin/menu-backup "https://raw.githubusercontent.com/asutunnel/asu/main/backup/menu-backup.sh" && chmod +x /usr/bin/menu-backup
-wget -q -O /usr/bin/backup "https://raw.githubusercontent.com/asutunnel/asu/main/backup/backup.sh" && chmod +x /usr/bin/backup
-wget -q -O /usr/bin/restore "https://raw.githubusercontent.com/asutunnel/asu/main/backup/restore.sh" && chmod +x /usr/bin/restore
+wget -q -O /usr/bin/menu-backup "https://raw.githubusercontent.com/asutunnel/asu/main/backup/menu-backup.sh" && chmod +x /usr/bin/menu-backup.sh
+wget -q -O /usr/bin/backup "https://raw.githubusercontent.com/asutunnel/asu/main/backup/backup.sh" && chmod +x /usr/bin/backup.sh
+wget -q -O /usr/bin/restore "https://raw.githubusercontent.com/asutunnel/asu/main/backup/restore.sh" && chmod +x /usr/bin/restore.sh
 wget -q -O /usr/bin/up "https://raw.githubusercontent.com/asutunnel/asu/main/up.sh" && chmod +x /usr/bin/up
 wget -O jam "https://raw.githubusercontent.com/asutunnel/asu/main/jam.sh"
 wget https://raw.githubusercontent.com/asutunnel/asu/main/udp/udp.sh && bash udp.sh
