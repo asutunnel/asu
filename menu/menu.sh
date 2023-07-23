@@ -304,7 +304,7 @@ clear
                     echo -e "${Kcyan}┌───────────────────────────────────────────┐${NC}" 
                     echo -e "${Kcyan}│${NC} ${white} IP VPS  ${NC}: $IPVPS"
 		    echo -e "${Kcyan}│${NC} ${white} Domain  ${NC}: $domain"
-      		    echo -e "${Kcyan}│${NC} ${white} nsDomain${NC}: $(cat /root/nsdomain)${NC}"
+      		    echo -e "${Kcyan}│${NC} ${white} nsDomain${NC}: $(cat /etc/xray/dns )${NC}"
                     echo -e "${Kcyan}│${NC} ${white} CPU     ${NC}: $cpu_usage"  
                     echo -e "${Kcyan}│${NC} ${white} RAM     ${NC}: $tram Mb"
                     echo -e "${Kcyan}│${NC} ${white} VERSION ${NC}: 1.0 last update"
