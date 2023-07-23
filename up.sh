@@ -55,11 +55,11 @@ cd /usr/bin
 # menu
 wget -O up "https://raw.githubusercontent.com/asutunnel/asu/main/up.sh"
 wget -O menu "https://raw.githubusercontent.com/asutunnel/asu/main/menu/menu.sh"
-wget -O menu-trial "https://raw.githubusercontent.com/Fikripps/Ver3/main/menu/menu-trial.sh"
+wget -O menu-trial "https://raw.githubusercontent.com/asutunnel/asu/main/menu/menu-trial.sh"
 wget -O menu-vmess "https://raw.githubusercontent.com/asutunnel/asu/main/menu/menu-vmess.sh"
 wget -O menu-vless "https://raw.githubusercontent.com/asutunnel/asu/main/menu-vless.sh"
 wget -O running "https://raw.githubusercontent.com/asutunnel/asu/main/menu/running.sh"
-wget -O clearcache "https://raw.githubusercontent.com/Fikripps/Ver3/main/menu/clearcache.sh"
+wget -O clearcache "https://raw.githubusercontent.com/asutunnel/asu/main/menu/clearcache.sh"
 wget -O menu-trgo "https://raw.githubusercontent.com/asutunnel/asu/main/menu/menu-trgo.sh"
 wget -O menu-trojan "https://raw.githubusercontent.com/asutunnel/asu/main/menu/menu-trojan.sh"
 
@@ -84,7 +84,7 @@ wget -O port-change "https://raw.githubusercontent.com/asutunnel/asu/main/port/p
 wget -O certv2ray "https://raw.githubusercontent.com/asutunnel/asu/main/xray/certv2ray.sh"
 wget -O menu-webmin "https://raw.githubusercontent.com/asutunnel/asu/main/menu/menu-webmin.sh"
 wget -O speedtest "https://raw.githubusercontent.com/asutunnel/asu/main/ssh/speedtest_cli.py"
-wget -O about "https://raw.githubusercontent.com/Fikripps/Ver3/main/menu/about.sh"
+wget -O about "https://raw.githubusercontent.com/asutunnel/asu/main/menu/about.sh"
 wget -O auto-reboot "https://raw.githubusercontent.com/asutunnel/asu/main/menu/auto-reboot.sh"
 wget -O restarts "https://raw.githubusercontent.com/asutunnel/asu/main/menu/restarts.sh"
 wget -O bw "https://raw.githubusercontent.com/asutunnel/asu/main/menu/bw.sh"
@@ -99,15 +99,14 @@ wget -O acs-set "https://raw.githubusercontent.com/asutunnel/asu/main/acs-set.sh
 
 wget -O sshws "https://raw.githubusercontent.com/asutunnel/asu/main/ssh/sshws.sh"
 wget -O status "https://raw.githubusercontent.com/asutunnel/asu/main/status.sh"
-wget https://raw.githubusercontent.com/Andyyuda/ver3/main/backup/set-br.sh &&  chmod +x set-br.sh && ./set-br.sh
+wget https://raw.githubusercontent.com/asutunnel/asu/main/backup/set-br.sh &&  chmod +x set-br.sh && ./set-br.sh
 wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/asutunnel/asu/main/menu/menu.sh" && chmod +x /usr/bin/menu
-wget -q -O /usr/bin/menu-backup "https://raw.githubusercontent.com/asutunnel/asu/main/backup/menu-backup.sh" && chmod +x /usr/bin/menu-backup
-wget -q -O /usr/bin/backup "https://raw.githubusercontent.com/asutunnel/asu/main/backup/backup.sh" && chmod +x /usr/bin/backup
-wget -q -O /usr/bin/restore "https://raw.githubusercontent.com/asutunnel/asu/main/backup/restore.sh" && chmod +x /usr/bin/restore
+wget -q -O /usr/bin/menu-backup "https://raw.githubusercontent.com/asutunnel/asu/main/backup/menu-backup.sh" && chmod +x /usr/bin/menu-backup.sh
+wget -q -O /usr/bin/backup "https://raw.githubusercontent.com/asutunnel/asu/main/backup/backup.sh" && chmod +x /usr/bin/backup.sh
+wget -q -O /usr/bin/restore "https://raw.githubusercontent.com/asutunnel/asu/main/backup/restore.sh" && chmod +x /usr/bin/restore.sh
 wget -q -O /usr/bin/up "https://raw.githubusercontent.com/asutunnel/asu/main/up.sh" && chmod +x /usr/bin/up
 wget -O jam "https://raw.githubusercontent.com/asutunnel/asu/main/jam.sh"
 wget https://raw.githubusercontent.com/asutunnel/asu/main/udp/udp.sh && bash udp.sh
-wget https://raw.githubusercontent.com/Andyvpn/Autoscript-by-azi/main/autoscript-ssh-slowdns-main/slowdns.sh && chmod +x slowdns.sh && ./slowdns.sh
 
 chmod +x menu
 chmod +x menu-trial
@@ -149,7 +148,7 @@ chmod +x xp
 chmod +x acs-set
 chmod +x sshws
 chmod +x status
-chmod +x menu-bckp
+chmod +x menu-backup
 chmod +x backup
 chmod +x restore
 chmod +x jam

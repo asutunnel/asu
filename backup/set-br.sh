@@ -36,18 +36,18 @@ account default
 host smtp.gmail.com
 port 587
 auth on
-user bckupvpns@gmail.com
-from bckupvpns@gmail.com
-password Yangbaru1 
+user alvibackup9@gmail.com
+from alvibackup9@gmail.com
+password wbgqpokjbkkjjiet
 logfile ~/.msmtp.log
 EOF
 chown -R www-data:www-data /etc/msmtprc
 cd /usr/bin
-wget -O autobackup "https://raw.githubusercontent.com/asutunnel/v4/main/backup/autobackup.sh"
-wget -O backup "https://raw.githubusercontent.com/asutunnel/v4/main/backup/backup.sh"
-wget -O restore "https://raw.githubusercontent.com/asutunnel/v4/main/backup/restore.sh"
-wget -O strt "https://raw.githubusercontent.com/asutunnel/v4/main/backup/strt.sh"
-wget -O limitspeed "https://raw.githubusercontent.com/asutunnel/v4/main/backup/limitspeed.sh"
+wget -O autobackup "https://raw.githubusercontent.com/asutunnel/asu/main/backup/autobackup.sh"
+wget -O backup "https://raw.githubusercontent.com/asutunnel/asu/main/backup/backup.sh"
+wget -O restore "https://raw.githubusercontent.com/asutunnel/asu/main/backup/restore.sh"
+wget -O strt "https://raw.githubusercontent.com/asutunnel/asu/main/backup/strt.sh"
+wget -O limitspeed "https://raw.githubusercontent.com/asutunnel/asu/main/backup/limitspeed.sh"
 chmod +x autobackup
 chmod +x backup
 chmod +x restore

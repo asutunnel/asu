@@ -299,13 +299,15 @@ else
 fi
 clear      
 		    echo -e "╒━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╕${NC}" | lolcat
-		    echo -e "║ \E[37;1;36m          ★  ASSU TUNNEL ★            \E[0m"
-		    echo -e "╘━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╛${NC}" | lolcat              
+		    echo -e "║ \E[37;1;36m          👉  ASSU TUNNEL 👈            \E[0m"
+		    echo -e "╘━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╛${NC}" | lolcat 
                     echo -e "${Kcyan}┌───────────────────────────────────────────┐${NC}" 
                     echo -e "${Kcyan}│${NC} ${white} IP VPS  ${NC}: $IPVPS"
+		    echo -e "${Kcyan}│${NC} ${white} Domain  ${NC}: $domain"
                     echo -e "${Kcyan}│${NC} ${white} CPU     ${NC}: $cpu_usage"  
                     echo -e "${Kcyan}│${NC} ${white} RAM     ${NC}: $tram Mb"
-                    echo -e "${Kcyan}│${NC} ${white} VERSION ${NC}: Libev 0.2"
+                    echo -e "${Kcyan}│${NC} ${white} VERSION ${NC}: 1.0 last update"
+		    echo -e "${Kcyan}│${NC} ${white} WA ${NC}     :${red} 08"
                     echo -e "${Kcyan}└───────────────────────────────────────────┘${NC}"  
                     echo -e " [ SSH : $status_ws_epro ] [ X-RAY : $status_ss ] [ NGINX : $status_nginx ]"
                     echo -e "${Kcyan}┌───────────────────────────────────────────┐${NC}"
@@ -319,12 +321,13 @@ clear
                     echo -e "${Kcyan}│${NC}${Kbiru} [•1]${NC}🗝️ ${white} SSH${NC}        " "${Kbiru}[•6]${NC}🗝️ ${white} CHECK RUNNING${NC}"   "${Kcyan}│${NC}"
                     echo -e "${Kcyan}│${NC}${Kbiru} [•2]${NC}🗝️ ${white} VMESS${NC}      " "${Kbiru}[•7]${NC}🗝️ ${white} RESTR SERVICE${NC}"   "${Kcyan}│${NC}"  
                     echo -e "${Kcyan}│${NC}${Kbiru} [•3]${NC}🗝️ ${white} VLESS${NC}      " "${Kbiru}[•8]${NC}🗝️ ${white} BACKUP MENU${NC}  "   "${Kcyan}│${NC}"
-                    echo -e "${Kcyan}│${NC}${Kbiru} [•4]${NC}🗝️ ${white} TROJAN-GO${NC}  " "${Kbiru}[•9]${NC}🗝️ ${white} SET PASW VPS${NC} "   "${Kcyan}│${NC}"
+                    echo -e "${Kcyan}│${NC}${Kbiru} [•4]${NC}🗝️ ${white} TROJAN-GO${NC}  " "${Kbiru}[•9]${NC}🔐 ${white} SET PASW VPS${NC} "   "${Kcyan}│${NC}"
                     echo -e "${Kcyan}│${NC}${Kbiru} [•5]${NC}🗝️ ${white} TROJAN-WS${NC}  " "${Kbiru}[10]${NC}🗝️ ${white} MENU SETINGS${NC} "   "${Kcyan}│${NC}"
                     echo -e "${Kcyan}└───────────────────────────────────────────┘"    
+		    echo -e "${NC}${Kbiru}           [•11]${NC}🗝️ ${white} Bot tele${NC}  "
 echo -e ""
-echo -e   "${kuning}"
-read -p " >>>>  "  opt
+echo -e   "${yellow}"
+read -p " ╰┈➤  "  opt
 echo -e   ""
 case $opt in
 1) clear ; menu-sshh ;;
@@ -337,5 +340,6 @@ case $opt in
 8) clear ; menu-backup ;;
 9) clear ; passwd ;;
 10) clear ; menu-set ;;
+11) clear ; api ;;
 x) exit ;;
 esac
