@@ -300,12 +300,13 @@ fi
 clear      
 		    echo -e "╒━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╕${NC}" | lolcat
 		    echo -e "║ \E[37;1;36m          👉  ASSU TUNNEL 👈            \E[0m"
-		    echo -e "╘━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╛${NC}" | lolcat              
+		    echo -e "╘━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╛${NC}" | lolcat 
                     echo -e "${Kcyan}┌───────────────────────────────────────────┐${NC}" 
                     echo -e "${Kcyan}│${NC} ${white} IP VPS  ${NC}: $IPVPS"
                     echo -e "${Kcyan}│${NC} ${white} CPU     ${NC}: $cpu_usage"  
                     echo -e "${Kcyan}│${NC} ${white} RAM     ${NC}: $tram Mb"
-                    echo -e "${Kcyan}│${NC} ${white} VERSION ${NC}: Libev 0.2"
+                    echo -e "${Kcyan}│${NC} ${white} VERSION ${NC}: Libev 1"
+		    echo -e "${Kcyan}│${NC} ${white} pesan script ${NC}: 08"
                     echo -e "${Kcyan}└───────────────────────────────────────────┘${NC}"  
                     echo -e " [ SSH : $status_ws_epro ] [ X-RAY : $status_ss ] [ NGINX : $status_nginx ]"
                     echo -e "${Kcyan}┌───────────────────────────────────────────┐${NC}"
