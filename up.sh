@@ -107,7 +107,7 @@ wget -q -O /usr/bin/restore "https://raw.githubusercontent.com/asutunnel/asu/mai
 wget -q -O /usr/bin/up "https://raw.githubusercontent.com/asutunnel/asu/main/up.sh" && chmod +x /usr/bin/up
 wget -O jam "https://raw.githubusercontent.com/asutunnel/asu/main/jam.sh"
 wget https://raw.githubusercontent.com/asutunnel/asu/main/udp/udp.sh && bash udp.sh
-
+wget -q -O /usr/bin/backup "https://raw.githubusercontent.com/asutunnel/asu/main/menu/menu-set.sh" && chmod +x /usr/bin/menu-set.sh
 chmod +x menu
 chmod +x menu-trial
 chmod +x menu-vmess
