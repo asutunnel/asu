@@ -37,7 +37,7 @@ case $opt in
 7) clear ; speedtest ; exit ;;
 8) clear ; menu-webmin ; exit ;; 
 9) clear ; about ; exit ;;
-10) clear ; about ; exit ;;
+10) clear ; up ; exit ;;
 0) clear ; up ; exit ;;
 x) exit ;;
 *) echo -e "" ; echo "salah pencet asu" ; sleep 1 ; menu-set ;;
