@@ -22,7 +22,7 @@ echo -e "         ${white}[•7]${NC} ${cyan}Speedtest vps\033[0m"
 echo -e "         ${white}[•8]${NC} ${cyan}Webmin menu\033[0m"
 echo -e "         ${white}[•9]${NC} ${cyan}Tentang Script\033[0m"
 echo -e "         ${white}[10]${NC} ${cyan}update script\033[0m"
-echo -e "         ${white}[11]${NC} ${cyan}ganti nas domain\033[0m"
+echo -e "         ${white}[11]${NC} ${cyan}ganti ns domain\033[0m"
 echo -e "         ${yelow}[•0]${NC} ${yelow}Back To Menu\033[0m"
 echo -e "         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo -e "${yellow}"
@@ -39,7 +39,7 @@ case $opt in
 8) clear ; menu-webmin ; exit ;; 
 9) clear ; about ; exit ;;
 10) clear ; up ; exit ;;
-11) clear ; up ; exit ;;
+11) clear ; slowdns ; exit ;;
 0) clear ; menu ; exit ;;
 x) exit ;;
 *) echo -e "" ; echo "salah pencet asu" ; sleep 1 ; menu-set ;;
