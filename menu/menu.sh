@@ -324,8 +324,8 @@ clear
                     echo -e "${Kcyan}│${NC}${Kbiru} [•5]${NC}🗝️ ${white} TROJAN-WS${NC}  " "${Kbiru}[10]${NC}🗝️ ${white} MENU SETINGS${NC} "   "${Kcyan}│${NC}"
                     echo -e "${Kcyan}└───────────────────────────────────────────┘"    
 echo -e ""
-echo -e   "${kuning}"
-read -p " >>>>  "  opt
+echo -e   "${merah}"
+read -p " ╰┈➤  "  opt
 echo -e   ""
 case $opt in
 1) clear ; menu-sshh ;;
