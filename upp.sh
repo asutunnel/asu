@@ -48,12 +48,12 @@ rm -rf menu-backup
 rm -rf backup
 rm -rf restore
 rm -rf jam
-rm -rf up
+rm -rf upp
 
 # download script
 cd /usr/bin
 # menu
-wget -O up "https://raw.githubusercontent.com/asutunnel/asu/main/up.sh"
+wget -O up "https://raw.githubusercontent.com/asutunnel/asu/main/upp.sh"
 wget -O menu "https://raw.githubusercontent.com/asutunnel/asu/main/menu/menu.sh"
 wget -O menu-trial "https://raw.githubusercontent.com/asutunnel/asu/main/menu/menu-trial.sh"
 wget -O menu-vmess "https://raw.githubusercontent.com/asutunnel/asu/main/menu/menu-vmess.sh"
