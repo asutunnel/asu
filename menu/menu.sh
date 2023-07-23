@@ -306,7 +306,7 @@ clear
                     echo -e "${Kcyan}│${NC} ${white} CPU     ${NC}: $cpu_usage"  
                     echo -e "${Kcyan}│${NC} ${white} RAM     ${NC}: $tram Mb"
                     echo -e "${Kcyan}│${NC} ${white} VERSION ${NC}: Libev 1"
-		    echo -e "${Kcyan}│${NC} ${white} pesan script ${NC}: 08"
+		    echo -e "${Kcyan}│${NC} ${white} SCRIPT  ${NC}: 08"
                     echo -e "${Kcyan}└───────────────────────────────────────────┘${NC}"  
                     echo -e " [ SSH : $status_ws_epro ] [ X-RAY : $status_ss ] [ NGINX : $status_nginx ]"
                     echo -e "${Kcyan}┌───────────────────────────────────────────┐${NC}"
