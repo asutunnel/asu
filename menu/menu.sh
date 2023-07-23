@@ -323,7 +323,7 @@ clear
                     echo -e "${Kcyan}│${NC}${Kbiru} [•4]${NC}🗝️ ${white} TROJAN-GO${NC}  " "${Kbiru}[•9]${NC}🔐 ${white} SET PASW VPS${NC} "   "${Kcyan}│${NC}"
                     echo -e "${Kcyan}│${NC}${Kbiru} [•5]${NC}🗝️ ${white} TROJAN-WS${NC}  " "${Kbiru}[10]${NC}🗝️ ${white} MENU SETINGS${NC} "   "${Kcyan}│${NC}"
                     echo -e "${Kcyan}└───────────────────────────────────────────┘"    
-		    			echo -e "${Kcyan}│${NC}${Kbiru}        [•11]${NC}🗝️ ${white} Bot tele${NC}  "
+		    	echo -e "${Kcyan}│${NC}${Kbiru}        [•11]${NC}🗝️ ${white} Bot tele${NC}  "
 echo -e ""
 echo -e   "${yellow}"
 read -p " ╰┈➤  "  opt
