@@ -324,7 +324,7 @@ clear
                     echo -e "${Kcyan}│${NC}${Kbiru} [•5]${NC}🗝️ ${white} TROJAN-WS${NC}  " "${Kbiru}[10]${NC}🗝️ ${white} MENU SETINGS${NC} "   "${Kcyan}│${NC}"
                     echo -e "${Kcyan}└───────────────────────────────────────────┘"    
 echo -e ""
-echo -e   "${merah}"
+echo -e   "${red}"
 read -p " ╰┈➤  "  opt
 echo -e   ""
 case $opt in
