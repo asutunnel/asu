@@ -104,5 +104,5 @@ case $opt in
 5) clear ; cek-tr ;;
 0) clear ; menu ;;
 x) exit ;;
-*) echo "Boh salah tekan, Sayang kedak Babi" ; sleep 1 ; menu-trojan ;;
+*) echo "anda salah tekan" ; sleep 1 ; menu-trgo ;;
 esac
