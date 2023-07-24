@@ -39,7 +39,7 @@ case $opt in
 8) clear ; menu-webmin ; exit ;; 
 9) clear ; about ; exit ;;
 10) clear ; up ;;
-11) clear ; menu-slow ; exit ;;
+11) clear ; slow ; exit ;;
 0) clear ; menu ; exit ;;
 x) exit ;;
 *) echo -e "" ; echo "salah pencet asu" ; sleep 1 ; menu-set ;;
