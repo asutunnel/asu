@@ -302,7 +302,8 @@ clear
 		    echo -e "║ \E[37;1;36m      👉 👑 ASSU TUNNEL 👑 👈           \E[0m"
 		    echo -e "╘━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╛${NC}" | lolcat 
                     echo -e "${Kcyan}┌───────────────────────────────────────────┐${NC}" 
-                    echo -e "${Kcyan}│${NC} ${white} IP VPS  ${NC}: $IPVPS"      
+                    echo -e "${Kcyan}│${NC} ${white} IP VPS  ${NC}: $IPVPS"  
+		    echo -e "${Kcyan}│${NC} ${white} OS	     ${NC}: $( cat /etc/os-release | grep -w PRETTY_NAME | sed 's/PRETTY_NAME//g' | sed 's/=//g' | sed 's/"//g' ) ( $( uname -m) )${NC}" 
 		    echo -e "${Kcyan}│${NC} ${white} Domain  ${NC}: $domain"     
       		    echo -e "${Kcyan}│${NC} ${white} nsdomain${NC}: $(cat /root/nsdomain)" 
                     echo -e "${Kcyan}│${NC} ${white} CPU     ${NC}: $cpu_usage"  
