@@ -10,6 +10,9 @@ clear
         cyan="\e[1;36m"
         white="\e[1;37m"
 clear        
+echo -e "╒━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╕${NC}" | lolcat
+		    echo -e "║ \E[37;1;36m      👉 👑 ASSU TUNNEL 👑 👈           \E[0m"
+		    echo -e "╘━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╛${NC}" | lolcat 
 echo -e "  ${red_background}SYSTEM MENU${NC}"
 echo -e " "
 echo -e "         ${white}[•1]${NC} ${cyan}ganti Domain vps\033[0m"
