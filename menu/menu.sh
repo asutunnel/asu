@@ -307,7 +307,7 @@ clear
       		    echo -e "${Kcyan}│${NC} ${white} nsdomain${NC}: $(cat /root/nsdomain)" 
                     echo -e "${Kcyan}│${NC} ${white} CPU     ${NC}: $cpu_usage"  
                     echo -e "${Kcyan}│${NC} ${white} RAM     ${NC}: $tram Mb"    
-		    echo -e "${Kcyan}│${NC} ${white} ISP     ${NC}:$(curl -s ipinfo.io/org | cut -d " " -f 2-10 )" 
+		    echo -e "${Kcyan}│${NC} ${white} ISP     ${NC}: $(curl -s ipinfo.io/org | cut -d " " -f 2-10 )" 
                     echo -e "${Kcyan}└───────────────────────────────────────────┘${NC}"  
                     echo -e " [ SSH : $status_ws_epro ] [ X-RAY : $status_ss ] [ NGINX : $status_nginx ]"
                     echo -e "${Kcyan}┌───────────────────────────────────────────┐${NC}"
