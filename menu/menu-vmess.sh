@@ -103,5 +103,5 @@ case $opt in
 5) clear ; cek-ws ; exit ;;
 0) clear ; menu ; exit ;;
 x) exit ;;
-*) echo "Salah pencet" ; menu-vmes ;;
+*) echo "Salah pencet" ; menu-vmess ;;
 esac
