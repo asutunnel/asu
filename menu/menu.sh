@@ -317,7 +317,7 @@ clear
                     echo -e "${Kcyan}┌───────────────────────────────────────────┐${NC}"
 		    echo -e "${Kcyan}│${NC}${whiteK}        Version  : ${NC}${MK}3.0 last Update"        
      		    echo -e "${Kcyan}│${NC}${whiteK}        script by: ${NC}${MK}Asu Tunnel"             
-		    echo -e "${Kcyan}│${NC}${whiteK}        Whatsapp : 📞${NC}${MK}08xxxx"               
+		    echo -e "${Kcyan}│${NC}${whiteK}        Whatsapp : 📞  ${NC}${MK}08xxxx"               
                     echo -e "${Kcyan}│${NC}${whiteK}        Client   : ${NC}${MK}$Name${NC}"            
                     echo -e "${Kcyan}│${NC}${whiteK}        Xpired   : ${NC}${MK}($Exp) $exp2 days ${NC}"
                     echo -e "${Kcyan}└───────────────────────────────────────────┘${NC}"
