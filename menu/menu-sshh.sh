@@ -106,5 +106,5 @@ case $opt in
 11) clear ; user-unlock ; exit ;;
 0) clear ; menu ; exit ;;
 x) exit ;;
-*) echo "Anda salah tekan asu" ; sleep 1 ; menu-ssh ;;
+*) echo "Anda salah tekan asu" ; sleep 1 ; menu-sshh ;;
 esac
