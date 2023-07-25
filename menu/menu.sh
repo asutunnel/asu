@@ -331,7 +331,7 @@ clear
 		    echo -e "${NC}${red}           [11]${NC}  🙋 ${white} Bot tele${NC}  "
 echo -e ""
 echo -e   "${white}"
-read -p " pilih menu :"    opt
+read -p " Pilih Menu Bosku:"    opt
 echo -e   ""
 case $opt in
 1) clear ; menu-sshh ;;
