@@ -105,7 +105,7 @@ GET / HTTP/1.1[crlf]Host:
 $domen[crlf]Upgrade: ws[crlf][crlf]
 " | tee -a /etc/log-create-user.log
 echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | tee -a /etc/log-create-user.log
-echo -e "                  ${cyan}ASU FAMILY${NC}"
+echo -e "                  ${cyan}Alvi cell tunneling${NC}"
 echo -e "enter back to menu  "
 else 
 
