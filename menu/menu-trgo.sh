@@ -82,7 +82,7 @@ fi
 MYIP=$(wget -qO- ipinfo.io/ip);
 clear 
 echo -e "╒━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╕${NC}" | lolcat
-		    echo -e "║ \E[37;1;36m      👉 👑 ASSU TUNNEL 👑 👈           \E[0m"
+		    echo -e "║ \E[37;1;36m       👑 ALVI CELL TUNNEL 👑            \E[0m"
 		    echo -e "╘━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╛${NC}" | lolcat 
 echo -e   "${red_background}TROJAN-GO MENU${NC}"
 echo -e " "
