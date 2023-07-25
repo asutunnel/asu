@@ -75,7 +75,7 @@ clear
 echo -e "╒━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╕${NC}" | lolcat
 		    echo -e "║ \E[37;1;36m       👑 ALVI CELL TUNNEL 👑            \E[0m"
 		    echo -e "╘━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╛${NC}" | lolcat 
-echo -e "   ${red_background}SSH MENU${NC}"
+
 echo -e ""
 echo -e "        ${white}[•1]${NC} ${cyann}Add ssh${NC}"
 echo -e "        ${white}[•2]${NC} ${cyann}trial ssh${NC}"
