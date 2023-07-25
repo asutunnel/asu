@@ -83,7 +83,7 @@ MYIP=$(wget -qO- ipinfo.io/ip);
 clear 
 echo -e ""
 echo -e "╒━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╕${NC}" | lolcat
-		    echo -e "║ \E[37;1;36m      👉 👑 ASSU TUNNEL 👑 👈           \E[0m"
+		    echo -e "║ \E[37;1;36m       👑 ALVI CELL TUNNEL 👑            \E[0m"
 		    echo -e "╘━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╛${NC}" | lolcat 
 echo -e "   ${red_background}TROJAN-WS MENU${NC}"
 echo -e ""
@@ -104,5 +104,5 @@ case $opt in
 5) clear ; cek-tr ;;
 0) clear ; menu ;;
 x) exit ;;
-*) echo "anda salah tekan" ; sleep 1 ; menu-trgo ;;
+*) echo "anda salah tekan" ; sleep 1 ; menu-trojan ;;
 esac
