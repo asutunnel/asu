@@ -322,13 +322,13 @@ clear
                     echo -e "${Kcyan}│${NC}${whiteK}        Xpired   : ${NC}${MK}($Exp) $exp2 days ${NC}"
                     echo -e "${Kcyan}└───────────────────────────────────────────┘${NC}"
                     echo -e "${Kcyan}┌───────────────────────────────────────────┐"
-                    echo -e "${Kcyan}│${NC}${Kbiru} [•1]${NC} 👉 ${red} SSH${NC}        " "${Kbiru}[•6]${NC} 👉 ${red} CHECK RUNNING${NC}"   "${Kcyan}│${NC}"
-                    echo -e "${Kcyan}│${NC}${Kbiru} [•2]${NC} 👉 ${red} VMESS${NC}      " "${Kbiru}[•7]${NC} 👉 ${red} RESTR SERVICE${NC}"   "${Kcyan}│${NC}"  
-                    echo -e "${Kcyan}│${NC}${Kbiru} [•3]${NC} 👉 ${red} VLESS${NC}      " "${Kbiru}[•8]${NC} 👉 ${red} BACKUP MENU${NC}  "   "${Kcyan}│${NC}"
-                    echo -e "${Kcyan}│${NC}${Kbiru} [•4]${NC} 👉 ${red} TROJAN-GO${NC}  " "${Kbiru}[•9]${NC} 🔐 ${red} SET PASW VPS${NC} "   "${Kcyan}│${NC}"
-                    echo -e "${Kcyan}│${NC}${Kbiru} [•5]${NC} 👉 ${red} TROJAN-WS${NC}  " "${Kbiru}[10]${NC} 👉 ${red} MENU SETINGS${NC} "   "${Kcyan}│${NC}"
+                    echo -e "${Kcyan}│${NC}${Kbiru} [1]${NC} 👉 ${red} SSH${NC}        " "${Kbiru}[6]${NC} 👉 ${red} GANTI PW VPS${NC}"   "${Kcyan}│${NC}"
+                    echo -e "${Kcyan}│${NC}${Kbiru} [2]${NC} 👉 ${red} VMESS${NC}      " "${Kbiru}[7]${NC} 👉 ${red} RESTR SERVICE${NC}"   "${Kcyan}│${NC}"  
+                    echo -e "${Kcyan}│${NC}${Kbiru} [3]${NC} 👉 ${red} VLESS${NC}      " "${Kbiru}[8]${NC} 👉 ${red} BACKUP MENU${NC}  "   "${Kcyan}│${NC}"
+                    echo -e "${Kcyan}│${NC}${Kbiru} [4]${NC} 👉 ${red} TROJAN-GO${NC}  " "${Kbiru}[9]${NC} 🔐 ${red} CEK RUNNING${NC} "   "${Kcyan}│${NC}"
+                    echo -e "${Kcyan}│${NC}${Kbiru} [5]${NC} 👉 ${red} TROJAN-WS${NC}  " "${Kbiru}[10]${NC} 👉 ${red} MENU SETINGS${NC} "   "${Kcyan}│${NC}"
                     echo -e "${Kcyan}└───────────────────────────────────────────┘"    
-		    echo -e "${NC}${red}           [•11]${NC}  🙋 ${white} Bot tele${NC}  "
+		    echo -e "${NC}${red}           [11]${NC}  🙋 ${white} Bot tele${NC}  "
 echo -e ""
 echo -e   "${yellow}"
 read -p " ╰┈➤  "  opt
@@ -339,10 +339,10 @@ case $opt in
 3) clear ; menu-vless ;;
 4) clear ; menu-trgo ;;
 5) clear ; menu-trojan ;;
-6) clear ; status ;;
+6) clear ; passwd ;;
 7) clear ; restarts ;;
 8) clear ; menu-backup ;;
-9) clear ; passwd ;;
+9) clear ; status ;;
 10) clear ; menu-set ;;
 11) clear ; api ;;
 x) exit ;;
