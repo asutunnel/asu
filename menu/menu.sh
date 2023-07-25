@@ -299,7 +299,7 @@ else
 fi
 clear      
 		    echo -e "╒━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╕${NC}" | lolcat
-		    echo -e "║ \E[37;1;36m       👑 ALVI CELL TUNNEL 👑           \E[0m"
+		    echo -e "║ \E[37;1;36m        👑 ALVI CELL TUNNEL 👑           \E[0m"
 		    echo -e "╘━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╛${NC}" | lolcat 
                     echo -e "${Kcyan}┌───────────────────────────────────────────┐${NC}" 
                     echo -e "${Kcyan}│${NC} ${white} IP VPS  ${NC}: $IPVPS"  
@@ -322,11 +322,11 @@ clear
                     echo -e "${Kcyan}│${NC}${whiteK}        Xpired   : ${NC}${MK}($Exp) $exp2 days ${NC}"
                     echo -e "${Kcyan}└───────────────────────────────────────────┘${NC}"
                     echo -e "${Kcyan}┌───────────────────────────────────────────┐"
-                    echo -e "${Kcyan}│${NC}${Kbiru} [1]${NC} 👉 ${red} SSH${NC}        " "${Kbiru}[6]${NC} 👉 ${red} GANTI PW VPS${NC}"   "${Kcyan}│${NC}"
+                    echo -e "${Kcyan}│${NC}${Kbiru} [1]${NC} 👉 ${red} SSH${NC}        " "${Kbiru}[6]${NC} 👉 ${red} GANTI PW VPS${NC}"    "${Kcyan}│${NC}"
                     echo -e "${Kcyan}│${NC}${Kbiru} [2]${NC} 👉 ${red} VMESS${NC}      " "${Kbiru}[7]${NC} 👉 ${red} RESTR SERVICE${NC}"   "${Kcyan}│${NC}"  
                     echo -e "${Kcyan}│${NC}${Kbiru} [3]${NC} 👉 ${red} VLESS${NC}      " "${Kbiru}[8]${NC} 👉 ${red} BACKUP MENU${NC}  "   "${Kcyan}│${NC}"
-                    echo -e "${Kcyan}│${NC}${Kbiru} [4]${NC} 👉 ${red} TROJAN-GO${NC}  " "${Kbiru}[9]${NC} 🔐 ${red} CEK RUNNING${NC} "   "${Kcyan}│${NC}"
-                    echo -e "${Kcyan}│${NC}${Kbiru} [5]${NC} 👉 ${red} TROJAN-WS${NC}  " "${Kbiru}[10]${NC} 👉 ${red} MENU SETINGS${NC} "   "${Kcyan}│${NC}"
+                    echo -e "${Kcyan}│${NC}${Kbiru} [4]${NC} 👉 ${red} TROJAN-GO${NC}  " "${Kbiru}[9]${NC} 🔐 ${red} CEK RUNNING${NC} "    "${Kcyan}│${NC}"
+                    echo -e "${Kcyan}│${NC}${Kbiru} [5]${NC} 👉 ${red} TROJAN-WS${NC}  " "${Kbiru}[10]${NC} 👉 ${red} MENU SETINGS${NC} "  "${Kcyan}│${NC}"
                     echo -e "${Kcyan}└───────────────────────────────────────────┘"    
 		    echo -e "${NC}${red}           [11]${NC}  🙋 ${white} Bot tele${NC}  "
 echo -e ""
