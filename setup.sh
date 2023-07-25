@@ -216,7 +216,7 @@ gg="AM"
 fi
 curl -sS ifconfig.me > /etc/myipvps
 echo " "
-echo "=====================-[ Created => ASU TUNNEL ]-===================="
+echo "=====================-[ Created => ALVI CELL TUNNEL ]-===================="
 echo ""
 echo "------------------------------------------------------------"
 echo ""
@@ -257,7 +257,7 @@ echo ""
 echo ""
 echo "------------------------------------------------------------"
 echo ""
-echo "===============-[ Script Created By ASU TUNNEL ]-==============="
+echo "===============-[ Script Created By ALVI CELL TUNNEL ]-==============="
 echo -e ""
 echo ""
 echo "" | tee -a log-install.txt
