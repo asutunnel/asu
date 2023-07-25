@@ -73,12 +73,12 @@ fi
 MYIP=$(wget -qO- ipinfo.io/ip);
 clear
 echo -e "╒━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╕${NC}" | lolcat
-		    echo -e "║ \E[37;1;36m      👉 👑 ASSU TUNNEL 👑 👈           \E[0m"
+		    echo -e "║ \E[37;1;36m       👑 ALVI CELL TUNNEL 👑            \E[0m"
 		    echo -e "╘━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╛${NC}" | lolcat 
 echo -e "   ${red_background}SSH MENU${NC}"
 echo -e ""
 echo -e "        ${white}[•1]${NC} ${cyann}Add ssh${NC}"
-echo -e "        ${white}[•2]${NC} ${cyann} trial ssh${NC}"
+echo -e "        ${white}[•2]${NC} ${cyann}trial ssh${NC}"
 echo -e "        ${white}[•3]${NC} ${cyann}Renew ssh${NC}"
 echo -e "        ${white}[•4]${NC} ${cyann}Delet ssh${NC}"
 echo -e "        ${white}[•5]${NC} ${cyann}Cek user login${NC}"
@@ -90,7 +90,7 @@ echo -e "        ${white}[•10]${NC} ${cyann} lock ssh${NC}"
 echo -e "        ${white}[•11]${NC} ${cyann}unlock ssh${NC}"
 echo -e "        ${yelow}[•0]${NC} ${yelow}Back To Menu${NC}"
 echo -e "${yelow}"
-read -p " >>>  "  opt
+read -p " ===>  "  opt
 echo -e ""
 case $opt in
 1) clear ; usernew ; exit ;;
@@ -100,7 +100,7 @@ case $opt in
 5) clear ; cek ; exit ;;
 6) clear ; member ; exit ;;
 7) clear ; delete ; exit ;;
-8) clear ; autokill ; exit ;;
+8) clear ; autokilll ; exit ;;
 9) clear ; ceklim ; exit ;;
 10) clear ; user-lock ; exit ;;
 11) clear ; user-unlock ; exit ;;
