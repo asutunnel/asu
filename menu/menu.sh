@@ -299,7 +299,7 @@ else
 fi
 clear      
 		    echo -e "╒━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╕${NC}" | lolcat
-		    echo -e "║ \E[37;1;36m  👑 ALVI CELL TUNNEL 👑           \E[0m"
+		    echo -e "║ \E[37;1;36m       👑 ALVI CELL TUNNEL 👑           \E[0m"
 		    echo -e "╘━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╛${NC}" | lolcat 
                     echo -e "${Kcyan}┌───────────────────────────────────────────┐${NC}" 
                     echo -e "${Kcyan}│${NC} ${white} IP VPS  ${NC}: $IPVPS"  
