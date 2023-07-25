@@ -130,11 +130,9 @@ clear
 clear && clear && clear
 clear;clear;clear
 
-echo -e "${YELLOW}----------------------------------------------------------${NC}"
-echo -e "                ${YELLOW}(${NC}${GREEN} STATUS SERVICE INFORMATION ${NC}${YELLOW})${NC}"
-echo -e "                  CREATOR : ${GREEN} asu ${NC}${YELLOW}${NC} ${GREEN}TUNNEL ${NC}${YELLOW}${NC}"
-echo -e "       © Copyright By asu -tunnel ${YELLOW}(${NC} 【☆】★【☆】 ${YELLOW})${NC}"
-echo -e "${YELLOW}----------------------------------------------------------${NC}"
+echo -e "╒━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╕${NC}" | lolcat
+		    echo -e "║ \E[37;1;36m       👑 ALVI CELL TUNNEL 👑            \E[0m"
+		    echo -e "╘━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╛${NC}" | lolcat 
 echo ""
 echo -e "${RED_BG}                     Sytem Information                    ${NC}"
 echo -e "Sever Uptime        = $( uptime -p  | cut -d " " -f 2-10000 ) "
