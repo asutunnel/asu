@@ -298,9 +298,9 @@ else
     status_nginx="${red}OFF${NC}"
 fi
 clear      
-		    echo -e "╒━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╕${NC}" | lolcat
+		    echo -e "╒━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╕${NC}" 
 		    echo -e "║ \E[37;1;36m        👑 ALVI CELL TUNNEL 👑           \E[0m"
-		    echo -e "╘━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╛${NC}" | lolcat 
+		    echo -e "╘━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╛${NC}" 
                     echo -e "${Kcyan}┌───────────────────────────────────────────┐${NC}" 
                     echo -e "${Kcyan}│${NC} ${white} IP VPS  ${NC}: $IPVPS"  
 		    echo -e "${Kcyan}│${NC} ${white} OS      ${NC}: $( cat /etc/os-release | grep -w PRETTY_NAME | sed 's/PRETTY_NAME//g' | sed 's/=//g' | sed 's/"//g' )"  
