@@ -756,7 +756,7 @@ echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━�
 echo -e "Aktif Selama     : 30 Menit"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo ""
-echo "killtrial vmess ${user}" | at now +60 minutes &> /dev/null
+echo "killtrial vmess ${user}" | at now +30 minutes &> /dev/null
 
 read -n 1 -s -r -p "Press any key to back on menu"
 
