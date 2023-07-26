@@ -47,9 +47,9 @@ vlesslink2="vless://${uuid}@${domain}:$none?path=/vless&encryption=none&type=ws#
 vlesslink3="vless://${uuid}@${domain}:$tls?mode=gun&security=tls&encryption=none&type=grpc&serviceName=vless-grpc&sni=bug.com#${user}"
 systemctl restart xray
 clear
-echo -e "╒━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╕${NC}" | lolcat
-		    echo -e "║ \E[37;1;36m       👑 ALVI CELL TUNNEL 👑            \E[0m"
-		    echo -e "╘━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╛${NC}" | lolcat 
+echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
+echo -e "\E[44;1;39m     👑 ALVI CELL TUNNEL 👑            \E[0m" | tee -a /etc/log-create-user.log
+echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
 echo -e "\E[44;1;39m        Xray/Vless Account        \E[0m" | tee -a /etc/log-create-user.log
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
