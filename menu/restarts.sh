@@ -9,9 +9,9 @@ wh="\e[1;37m" # PUTIH
 ye="\e[1;33m" # KUNING
 cy="\e[1;36m" # CYAN/BIRU MUDA
 clear 
-echo -e "╒━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╕${NC}" | lolcat
+echo -e "╒━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╕${NC}"
 		    echo -e "║ \E[37;1;36m       👑 ALVI CELL TUNNEL 👑            \E[0m"
-		    echo -e "╘━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╛${NC}" | lolcat 
+		    echo -e "╘━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╛${NC}" 
 echo -e "  ${red_background}RESTART MENU${NC}"
 echo -e ""
 echo -e "        ${wh}•1)${NC} ${cy}Restart All Services${NC}"
