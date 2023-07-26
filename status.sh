@@ -1,8 +1,8 @@
 #!/bin/bash
 # Welcome Information
 # Edition : Stable Edition V1.0
-# Author  : ASU TUNNEL
-# (C) Copyright 2023 - 2026 By ASUTunnel
+# Author  : ALVI CELL TUNNEL
+# (C) Copyright 2023 - 2026 By ALVI CELL
 # =========================================
 
 # // Exporting Language to UTF-8
