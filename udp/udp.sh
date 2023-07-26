@@ -1,24 +1,41 @@
 #!/bin/bash
 #Script UdpCustom 2023
-#Script By asu tunnel
-
+#Script By ALVI CELL
+#https://t.me/Alvi_cell
 cd
 rm -rf /root/udp
 mkdir -p /root/udp
 # install udp-custom
 echo ""
 sleep 4
-echo " install UDP-CUSTOM........" | lolcat
+echo " Proses Download Script UdpCustom........"
 sleep 4
 clear
-echo "BRINGAS MELUNCUR GAYS........" | lolcat
+echo " Cecking Tool UdpCustom By Alvi cell......."
+sleep 4
+clear
+echo " Succes Cecking Tool..........."
+sleep 4
+clear
+echo " Please Waiting Proses Downloading Toll UdpCustom........"
+sleep 4
 clear
 wget -q --show-progress --load-cookies /tmp/cookies.txt "https://gitlab.com/Exe302/Tunnel/-/raw/main/udp-custom-linux-amd64" -O /root/udp/udp-custom && rm -rf /tmp/cookies.txt
 chmod +x /root/udp/udp-custom
 clear
 # install Config Default Udp
 echo ""
-echo "Mempersiapkan progres udp......." | lolcat
+sleep 4
+echo " Proses Download Script Config Default........"
+sleep 4
+clear
+echo " Cecking Config Default By Alvi cell......."
+sleep 4
+clear
+echo " Succes Cecking Config Default Tool..........."
+sleep 4
+clear
+echo " Please Waiting Proses Downloading Default Config UdpCustom........"
 sleep 4
 clear
 wget -q --show-progress --load-cookies /tmp/cookies.txt "https://gitlab.com/Exe302/Tunnel/-/raw/main/config.json" -O /root/udp/config.json && rm -rf /tmp/cookies.txt
@@ -27,7 +44,7 @@ chmod 644 /root/udp/config.json
 if [ -z "$1" ]; then
 cat <<EOF > /etc/systemd/system/udp-custom.service
 [Unit]
-Description=UDP Custom by asu tunnel
+Description=UDP Custom by AndyYuda
 
 [Service]
 User=root
@@ -43,7 +60,7 @@ EOF
 else
 cat <<EOF > /etc/systemd/system/udp-custom.service
 [Unit]
-Description=UDP Custom by asu tunnel
+Description=UDP Custom by AndyYuda
 
 [Service]
 User=root
@@ -67,4 +84,3 @@ systemctl enable udp-custom &>/dev/null
 echo ""
 sleep 0,5
 clear
-
