@@ -120,18 +120,18 @@ echo -e "OHP OpenVPN : 8787" | tee -a /etc/log-create-user.log
 echo -e "Prot Squid  : $sqd" | tee -a /etc/log-create-user.log
 echo -e "UDPGW       : 7100-7300" | tee -a /etc/log-create-user.log
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
-echo -e " 🔰Account OpenVPN🔰 "
+echo -e " Account OpenVPN "
 echo -e "OpenVPN TCP : 1194 http://$IP:81/client-tcp-1194.ovpn"
 echo -e "OpenVPN UDP : 2200 http://$IP:81/client-udp-2200.ovpn"
 echo -e "OpenVPN SSL : 110 http://$IP:81/client-tcp-ssl.ovpn"
-echo -e " 🔰Account OpenVPN OHP🔰 "
+echo -e " Account OpenVPN OHP "
 echo -e "OpenVPN OHP : 8787 http://$MYIP:81/client-tcp-ohp1194.ovpn"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
-echo -e " 🔰Account UDP 1🔰 "
+echo -e " UDP 1 "
 echo -e "$domen:54-65535@$Login:$Pass"
-echo -e " 🔰Account UDP 2🔰 "
+echo -e " UDP 2 "
 echo -e "$IP:10000-10150@$Login:$Pass"
-echo -e " 🔰Account UDP 3🔰 "
+echo -e " UDP 3 "
 echo -e "$domen:1-65535@$Login:$Pass"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
 echo -e "Payload WSS" | tee -a /etc/log-create-user.log
