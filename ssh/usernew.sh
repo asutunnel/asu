@@ -44,7 +44,9 @@ NS=$(cat /root/nsdomain)
 portsshws=`cat ~/log-install.txt | grep -w "SSH Websocket" | cut -d: -f2 | awk '{print $1}'`
 wsssl=`cat /root/log-install.txt | grep -w "SSH SSL Websocket" | cut -d: -f2 | awk '{print $1}'`
 
-echo -e " \033[31m##########\033[33m##########\033[32m##########\033[34m##########\033[35m##########\033[36m##########\e[0m"
+echo -e "\e[1;36m__________________________________________\033[0m" 
+echo -e "\E[40;1;37m  👑 ALVI CELL TUNNEL 👑                \E[0m"
+echo -e "\e[1;36m__________________________________________\033[0m"
 echo -e " \033[31m╭══════════════════════════════════════════════════════════╮\e[0m"
 echo -e " \033[34m│$NC\033[33m                       SSH Account                        $NC\033[34m│\e[0m"
 echo -e " \033[33m╰══════════════════════════════════════════════════════════╯\e[0m"
@@ -92,6 +94,9 @@ echo "### ${Login} " >>/etc/ssh/.ssh.db
 echo ""
 
 if [[ ! -z "${PID}" ]]; then
+echo -e "\e[1;36m__________________________________________\033[0m" | tee -a /etc/log-create-user.log
+echo -e "\E[40;1;37m  👑 ALVI CELL TUNNEL 👑                \E[0m" | tee -a /etc/log-create-user.log
+echo -e "\e[1;36m__________________________________________\033[0m" | tee -a /etc/log-create-user.log
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
 echo -e "\E[0;41;36m            SSH Account            \E[0m" | tee -a /etc/log-create-user.log
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
