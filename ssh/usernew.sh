@@ -104,7 +104,7 @@ echo -e "Username    : $Login" | tee -a /etc/log-create-user.log
 echo -e "Password    : $Pass" | tee -a /etc/log-create-user.log
 echo -e "Expired On  : $exp" | tee -a /etc/log-create-user.log
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
-echo -e "Tinggal Copy: $domen:80/443@$Login:$Pass" | tee -a /etc/log-create-user.log
+echo -e "SSH-SSL-WS  : $domen:80/443@$Login:$Pass" | tee -a /etc/log-create-user.log
 echo -e "IP          : $IP" | tee -a /etc/log-create-user.log
 echo -e "Host        : $domen" | tee -a /etc/log-create-user.log
 echo -e "Host DNS    : $NS" | tee -a /etc/log-create-user.log
@@ -123,7 +123,7 @@ echo -e "OHP Dropbear: 8585" | tee -a /etc/log-create-user.log
 echo -e "OHP OpenSSH : 8686" | tee -a /etc/log-create-user.log
 echo -e "OHP OpenVPN : 8787" | tee -a /etc/log-create-user.log
 echo -e "Prot Squid  : $sqd" | tee -a /etc/log-create-user.log
-echo -e "UDPGW       : 7100-7300" | tee -a /etc/log-create-user.log
+echo -e "UDPGW VCS   : 7100-7300" | tee -a /etc/log-create-user.log
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
 echo -e " Account OpenVPN "
 echo -e "OpenVPN TCP : 1194 http://$IP:81/client-tcp-1194.ovpn"
@@ -165,7 +165,7 @@ Username    : $Login
 Password    : $Pass
 Expired On  : $exp
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Tinggal Copy: $domen:80/443@$Login:$Pass
+SSH-SSL-WS  : $domen:80/443@$Login:$Pass
 IP          : $IP
 Host        : $domen
 Host DNS    : $NS
@@ -184,7 +184,7 @@ OHP Dropbear: 8585
 OHP OpenSSH : 8686
 OHP OpenVPN : 8787
 Prot Squid  : $sqd
-UDPGW       : 7100-7300
+UDPGW vcs   : 7100-7300
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Account OpenVPN 
 OpenVPN TCP : 1194 http://$IP:81/client-tcp-1194.ovpn
@@ -219,7 +219,7 @@ echo -e "Username    : $Login" | tee -a /etc/log-create-user.log
 echo -e "Password    : $Pass" | tee -a /etc/log-create-user.log
 echo -e "Expired On  : $exp" | tee -a /etc/log-create-user.log
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
-echo -e "Tinggal Copy: $domen:80/443@$Login:$Pass" | tee -a /etc/log-create-user.log
+echo -e " SSH-SSL-WS : $domen:80/443@$Login:$Pass" | tee -a /etc/log-create-user.log
 echo -e "IP          : $IP" | tee -a /etc/log-create-user.log
 echo -e "Host        : $domen" | tee -a /etc/log-create-user.log
 echo -e "Host DNS    : $NS" | tee -a /etc/log-create-user.log
@@ -238,7 +238,7 @@ echo -e "OHP Dropbear: 8585" | tee -a /etc/log-create-user.log
 echo -e "OHP OpenSSH : 8686" | tee -a /etc/log-create-user.log
 echo -e "OHP OpenVPN : 8787" | tee -a /etc/log-create-user.log
 echo -e "Prot Squid  : $sqd" | tee -a /etc/log-create-user.log
-echo -e "UDPGW       : 7100-7300" | tee -a /etc/log-create-user.log
+echo -e "UDPGW   vcs : 7100-7300" | tee -a /etc/log-create-user.log
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
 echo -e " Account OpenVPN "
 echo -e "OpenVPN TCP : 1194 http://$IP:81/client-tcp-1194.ovpn"
