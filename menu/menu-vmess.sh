@@ -198,8 +198,8 @@ echo -e " \033[35m│$NC Press x or [ Ctrl+C ] • To-Exit"
 echo -e " \033[36m╰══════════════════════════════════════════════════════════╯\e[0m"
 echo -e " \033[31m##########\033[33m##########\033[32m##########\033[34m##########\033[35m##########\033[36m##########\e[0m"
 echo -e ""
-read -p " Select From Options [ 1 - 8 ] : " "menu"
-case $menu in
+read -p " ====>>> "  opt
+case $opt in
 1) clear ; addws ; exit ;;
 2) clear ; trialvmess ; exit ;;
 3) clear ; del-ws ; exit ;;
