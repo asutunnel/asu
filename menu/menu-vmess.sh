@@ -121,7 +121,7 @@ read -rp "Input Username : " user
 if [ -z $user ]; then
 menu
 else
-read -p "Limit (IP): " ips
+read -p "Limit IP: " ips
 echo -e "${ips}" > /etc/vmess/limit-ip/${user}
 clear
 echo -e "\033[0;35m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
