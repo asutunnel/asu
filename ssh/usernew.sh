@@ -209,6 +209,9 @@ GET wss://isi_bug_disini/ HTTP/1.1[crlf]Host: sshws.$domain[crlf]Upgrade: websoc
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 END
 
+echo -e "\e[1;36m__________________________________________\033[0m" | tee -a /etc/log-create-user.log
+echo -e "\E[40;1;37m  👑 ALVI CELL TUNNEL 👑                \E[0m" | tee -a /etc/log-create-user.log
+echo -e "\e[1;36m__________________________________________\033[0m" | tee -a /etc/log-create-user.log
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
 echo -e "\E[0;41;36m            SSH Account            \E[0m" | tee -a /etc/log-create-user.log
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
