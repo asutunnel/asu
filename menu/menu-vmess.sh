@@ -78,7 +78,7 @@ read -rp "Input Username : " user
 if [ -z $user ]; then
 menu
 else
-read -p "Limit (Quota): " Quota
+read -p "Limit (Quota): " Quota "
 echo -e "$[$Quota * 1024 * 1024 * 1024]" > /etc/vmess/${user}
 clear
 echo -e "\033[0;35m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
