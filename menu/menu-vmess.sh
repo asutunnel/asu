@@ -202,8 +202,8 @@ read -p " Select From Options [ 1 - 8 ] : " menu
 case $menu in
 1) clear ; addws ; exit ;;
 2) clear ; trialvmess ; exit ;;
-3) clear ; delws ; exit ;;
-4) clear ; renewws ; exit ;;
+3) clear ; del-ws ; exit ;;
+4) clear ; renew-ws ; exit ;;
 5) clear ; cek-ws ; exit ;;
 6) clear ; editquota ; exit ;;
 7) clear ; editlimit ; exit ;;
