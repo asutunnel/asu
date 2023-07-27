@@ -84,7 +84,7 @@ clear
 echo -e "╒━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╕${NC}"
 		    echo -e "║ \E[37;1;36m       👑 ALVI CELL TUNNEL 👑            \E[0m"
 		    echo -e "╘━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╛${NC}"
-echo -e   "${red_background}TROJAN-GO MENU${NC}"
+echo -e   "${white_background}TROJAN-GO MENU${NC}"
 echo -e " "
 echo -e "         ${white}[•1]${NC} ${cyan}Create TrojanGo${NC}"
 echo -e "         ${white}[•2]${NC} ${cyan}Create Triall${NC}"
