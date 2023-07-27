@@ -201,7 +201,7 @@ echo -e ""
 read -p " Select From Options [ 1 - 8 ] : " menu
 case $menu in
 1) clear ; addws ; exit ;;
-2) clear ; trialws ; exit ;;
+2) clear ; trialvmess ; exit ;;
 3) clear ; delws ; exit ;;
 4) clear ; renewws ; exit ;;
 5) clear ; cek-ws ; exit ;;
