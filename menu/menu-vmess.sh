@@ -210,5 +210,4 @@ case $menu in
 8) clear ; resquota ; exit ;;
 0) clear ; menu ; exit ;;
 x) exit ;;
-*) echo " Anda salah tekan " ; sleep 1 ; menu-vmess ;;
 esac
