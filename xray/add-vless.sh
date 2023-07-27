@@ -25,8 +25,8 @@ echo -e "            ${RED}PERMISSION DENIED !${NC}"
 echo -e "   \033[0;33mYour VPS${NC} $ipsaya \033[0;33mHas been Banned${NC}"
 echo -e "     \033[0;33mBuy access permissions for scripts${NC}"
 echo -e "             \033[0;33mContact Admin :${NC}"
-echo -e "      \033[0;36mTelegram${NC} t.me/Alvi_cell"
-echo -e "      ${GREEN}WhatsApp${NC} wa.me/6282183496832"
+echo -e "      \033[0;36mTelegram${NC} t.me/Dragon_Emperor999"
+echo -e "      ${GREEN}WhatsApp${NC} wa.me/6283821682527"
 echo -e "\033[1;93m────────────────────────────────────────────\033[0m"
 exit
 fi
@@ -40,7 +40,7 @@ else
 domain=$IP
 fi
 PUB=$( cat /etc/slowdns/server.pub )
-NS=`cat /etc/xray/dns`
+NS=(cat /root/nsdomain)
 
 tls="$(cat ~/log-install.txt | grep -w "Vless TLS" | cut -d: -f2|sed 's/ //g')"
 none="$(cat ~/log-install.txt | grep -w "Vless none TLS" | cut -d: -f2|sed 's/ //g')"
