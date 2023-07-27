@@ -81,6 +81,9 @@ exit 0
 fi
 MYIP=$(wget -qO- ipinfo.io/ip);
 clear
+echo -e "╒━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╕${NC}"
+		    echo -e "║ \E[37;1;36m       👑 ALVI CELL TUNNEL 👑            \E[0m"
+		    echo -e "╘━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╛${NC}"
 echo -e "   ${red_background}VMESS MENU${NC}"
 echo -e ""
 echo -e "        ${white}[•1]${NC} ${cyan}Create v2ray${NC}"
@@ -100,5 +103,5 @@ case $opt in
 5) clear ; cek-ws ; exit ;;
 0) clear ; menu ; exit ;;
 x) exit ;;
-*) echo "Salah pencet" ; menu-ssh ;;
+*) echo "Salah pencet" ; menu-vmess ;;
 esac

@@ -151,7 +151,7 @@ echo -e "$green          Install XRAY              $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 1
 clear
-wget https://raw.githubusercontent.com/artanodrop/v4/main/xray/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
+wget https://raw.githubusercontent.com/asutunnel/asu/main/xray/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
 wget https://raw.githubusercontent.com/asutunnel/asu/main/Sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 clear
 #pasang rc clone ssh ovpn 
@@ -168,7 +168,7 @@ echo -e "$green          Install SLDNS              $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
-wget https://raw.githubusercontent.com/Andyvpn/Autoscript-by-azi/main/autoscript-ssh-slowdns-main/slowdns.sh && chmod +x slowdns.sh && ./slowdns.sh
+wget https://raw.githubusercontent.com/asutunnel/asu/main/slowdns.sh && chmod +x slowdns.sh && ./slowdns.sh
 clear
 
 #Instal udp
@@ -216,7 +216,7 @@ gg="AM"
 fi
 curl -sS ifconfig.me > /etc/myipvps
 echo " "
-echo "=====================-[ Created => ASU TUNNEL ]-===================="
+echo "=====================-[ Created => ALVI CELL TUNNEL ]-===================="
 echo ""
 echo "------------------------------------------------------------"
 echo ""
@@ -257,7 +257,7 @@ echo ""
 echo ""
 echo "------------------------------------------------------------"
 echo ""
-echo "===============-[ Script Created By ASU TUNNEL ]-==============="
+echo "===============-[ Script Created By ALVI CELL TUNNEL ]-==============="
 echo -e ""
 echo ""
 echo "" | tee -a log-install.txt

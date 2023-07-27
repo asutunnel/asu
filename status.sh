@@ -1,8 +1,8 @@
 #!/bin/bash
 # Welcome Information
 # Edition : Stable Edition V1.0
-# Author  : ASU TUNNEL
-# (C) Copyright 2023 - 2026 By ASUTunnel
+# Author  : ALVI CELL TUNNEL
+# (C) Copyright 2023 - 2026 By ALVI CELL
 # =========================================
 
 # // Exporting Language to UTF-8
@@ -130,11 +130,9 @@ clear
 clear && clear && clear
 clear;clear;clear
 
-echo -e "${YELLOW}----------------------------------------------------------${NC}"
-echo -e "                ${YELLOW}(${NC}${GREEN} STATUS SERVICE INFORMATION ${NC}${YELLOW})${NC}"
-echo -e "                  CREATOR : ${GREEN} asu ${NC}${YELLOW}${NC} ${GREEN}TUNNEL ${NC}${YELLOW}${NC}"
-echo -e "       © Copyright By asu -tunnel ${YELLOW}(${NC} 【☆】★【☆】 ${YELLOW})${NC}"
-echo -e "${YELLOW}----------------------------------------------------------${NC}"
+echo -e "╒━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╕${NC}"
+		    echo -e "║ \E[37;1;36m       👑 ALVI CELL TUNNEL 👑            \E[0m"
+		    echo -e "╘━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╛${NC}"
 echo ""
 echo -e "${RED_BG}                     Sytem Information                    ${NC}"
 echo -e "Sever Uptime        = $( uptime -p  | cut -d " " -f 2-10000 ) "

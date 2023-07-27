@@ -298,37 +298,40 @@ else
     status_nginx="${red}OFF${NC}"
 fi
 clear      
-		    echo -e "╒━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╕${NC}" | lolcat
-		    echo -e "║ \E[37;1;36m      👉 👑 ASSU TUNNEL 👑 👈           \E[0m"
-		    echo -e "╘━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╛${NC}" | lolcat 
+		    echo -e "╒━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╕${NC}" 
+		    echo -e "║ \E[37;1;36m        👑 ALVI CELL TUNNEL 👑           \E[0m"
+		    echo -e "╘━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╛${NC}" 
                     echo -e "${Kcyan}┌───────────────────────────────────────────┐${NC}" 
-                    echo -e "${Kcyan}│${NC} ${white} IP VPS  ${NC}: $IPVPS"
-		    echo -e "${Kcyan}│${NC} ${white} Domain  ${NC}: $domain"
+                    echo -e "${Kcyan}│${NC} ${white} IP VPS  ${NC}: $IPVPS"  
+		    echo -e "${Kcyan}│${NC} ${white} OS      ${NC}: $( cat /etc/os-release | grep -w PRETTY_NAME | sed 's/PRETTY_NAME//g' | sed 's/=//g' | sed 's/"//g' )"  
+		    echo -e "${Kcyan}│${NC} ${white} Domain  ${NC}: $domain"     
+      		    echo -e "${Kcyan}│${NC} ${white} nsdomain${NC}: $(cat /root/nsdomain)" 
                     echo -e "${Kcyan}│${NC} ${white} CPU     ${NC}: $cpu_usage"  
-                    echo -e "${Kcyan}│${NC} ${white} RAM     ${NC}: $tram Mb"
+                    echo -e "${Kcyan}│${NC} ${white} RAM     ${NC}: $tram Mb"    
+		    echo -e "${Kcyan}│${NC} ${white} ISP     ${NC}: $(curl -s ipinfo.io/org | cut -d " " -f 2-10 )" 
                     echo -e "${Kcyan}└───────────────────────────────────────────┘${NC}"  
                     echo -e " [ SSH : $status_ws_epro ] [ X-RAY : $status_ss ] [ NGINX : $status_nginx ]"
                     echo -e "${Kcyan}┌───────────────────────────────────────────┐${NC}"
                     echo -e "${Kcyan}│${MK} SSH : $ssh1 │ VMES : $vma │ VLES : $vla │ TROJAN : $tra"${Kcyan}│${NC}
                     echo -e "${Kcyan}└───────────────────────────────────────────┘${NC}"
                     echo -e "${Kcyan}┌───────────────────────────────────────────┐${NC}"
-		    echo -e "${Kcyan}│${NC}${whiteK}         Version : ${NC}${MK}3.0 last Update}"
-     		    echo -e "${Kcyan}│${NC}${whiteK}         order by: ${NC}${MK}Asu Tunnel}"
-		    echo -e "${Kcyan}│${NC}${whiteK}         Whatsapp: 📞${NC}${MK}08xxxx"
-                    echo -e "${Kcyan}│${NC}${whiteK}         Client  : ${NC}${MK}$Name${NC}"
-                    echo -e "${Kcyan}│${NC}${whiteK}         Xpired  : ${NC}${MK}($Exp) $exp2 days ${NC}"
+		    echo -e "${Kcyan}│${NC}${whiteK}        Version  : ${NC}${MK}3.0 last Update"        
+     		    echo -e "${Kcyan}│${NC}${whiteK}        script by: ${NC}${MK}Alvi Cell Tunnel"             
+		    echo -e "${Kcyan}│${NC}${whiteK}        Whatsapp : 📞  ${NC}${MK}082183496832"               
+                    echo -e "${Kcyan}│${NC}${whiteK}        Client   : ${NC}${MK}$Name${NC}"            
+                    echo -e "${Kcyan}│${NC}${whiteK}        Xpired   : ${NC}${MK}($Exp) $exp2 days ${NC}"
                     echo -e "${Kcyan}└───────────────────────────────────────────┘${NC}"
                     echo -e "${Kcyan}┌───────────────────────────────────────────┐"
-                    echo -e "${Kcyan}│${NC}${Kbiru} [•1]${NC} 👉 ${white} SSH${NC}        " "${Kbiru}[•6]${NC} 👉 ${white} CHECK RUNNING${NC}"   "${Kcyan}│${NC}"
-                    echo -e "${Kcyan}│${NC}${Kbiru} [•2]${NC} 👉 ${white} VMESS${NC}      " "${Kbiru}[•7]${NC} 👉 ${white} RESTR SERVICE${NC}"   "${Kcyan}│${NC}"  
-                    echo -e "${Kcyan}│${NC}${Kbiru} [•3]${NC} 👉 ${white} VLESS${NC}      " "${Kbiru}[•8]${NC} 👉 ${white} BACKUP MENU${NC}  "   "${Kcyan}│${NC}"
-                    echo -e "${Kcyan}│${NC}${Kbiru} [•4]${NC} 👉 ${white} TROJAN-GO${NC}  " "${Kbiru}[•9]${NC} 🔐 ${white} SET PASW VPS${NC} "   "${Kcyan}│${NC}"
-                    echo -e "${Kcyan}│${NC}${Kbiru} [•5]${NC} 👉 ${white} TROJAN-WS${NC}  " "${Kbiru}[10]${NC} 👉 ${white} MENU SETINGS${NC} "   "${Kcyan}│${NC}"
+                    echo -e "${Kcyan}│${NC}${Kbiru} [1]${NC} 👉 ${red} SSH${NC}        " "${Kbiru}[6]${NC} 🔐 ${red} GANTI PW VPS${NC}"     "${Kcyan}${NC}"
+                    echo -e "${Kcyan}│${NC}${Kbiru} [2]${NC} 👉 ${red} VMESS${NC}      " "${Kbiru}[7]${NC} 👉 ${red} RESTR SERVICE${NC}"   "${Kcyan}${NC}"  
+                    echo -e "${Kcyan}│${NC}${Kbiru} [3]${NC} 👉 ${red} VLESS${NC}      " "${Kbiru}[8]${NC} 👉 ${red} BACKUP MENU${NC}  "   "${Kcyan}${NC}"
+                    echo -e "${Kcyan}│${NC}${Kbiru} [4]${NC} 👉 ${red} TROJAN-GO${NC}  " "${Kbiru}[9]${NC} 👉 ${red} CEK RUNNING${NC} "   "${Kcyan}${NC}"
+                    echo -e "${Kcyan}│${NC}${Kbiru} [5]${NC} 👉 ${red} TROJAN-WS${NC}  " "${Kbiru}[10]${NC} 👉 ${red} MENU SETINGS${NC} " "${Kcyan}${NC}"
                     echo -e "${Kcyan}└───────────────────────────────────────────┘"    
-		    echo -e "${NC}${red}           [•11]${NC}  🙋 ${white} Bot tele${NC}  "
+		    echo -e "${NC}${red}           [11]${NC}  🙋 ${white} Bot tele${NC}  "
 echo -e ""
-echo -e   "${yellow}"
-read -p " ╰┈➤  "  opt
+echo -e   "${white}"
+read -p " Pilih Menu Bosku:"    opt
 echo -e   ""
 case $opt in
 1) clear ; menu-sshh ;;
@@ -336,10 +339,10 @@ case $opt in
 3) clear ; menu-vless ;;
 4) clear ; menu-trgo ;;
 5) clear ; menu-trojan ;;
-6) clear ; status ;;
+6) clear ; passwd ;;
 7) clear ; restarts ;;
 8) clear ; menu-backup ;;
-9) clear ; passwd ;;
+9) clear ; status ;;
 10) clear ; menu-set ;;
 11) clear ; api ;;
 x) exit ;;

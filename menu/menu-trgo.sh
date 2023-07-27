@@ -81,6 +81,9 @@ exit 0
 fi
 MYIP=$(wget -qO- ipinfo.io/ip);
 clear 
+echo -e "╒━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╕${NC}"
+		    echo -e "║ \E[37;1;36m       👑 ALVI CELL TUNNEL 👑            \E[0m"
+		    echo -e "╘━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╛${NC}"
 echo -e   "${red_background}TROJAN-GO MENU${NC}"
 echo -e " "
 echo -e "         ${white}[•1]${NC} ${cyan}Create TrojanGo${NC}"
@@ -100,5 +103,5 @@ case $opt in
 5) clear ; cektrgo ;;
 0) clear ; menu ;;
 x) exit ;;
-*) echo "salah tekan" ; sleep 1 ; menu-trojan ;;
+*) echo "salah tekan" ; sleep 1 ; menu-trgo ;;
 esac

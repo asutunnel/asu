@@ -10,7 +10,10 @@ clear
         cyan="\e[1;36m"
         white="\e[1;37m"
 clear        
-echo -e "  ${red_background}SYSTEM MENU${NC}"
+echo -e "╒━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╕${NC}"  
+		    echo -e "║ \E[37;1;36m       👑 ALVI CELL TUNNEL 👑            \E[0m"
+		    echo -e "╘━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╛${NC}" 
+
 echo -e " "
 echo -e "         ${white}[•1]${NC} ${cyan}ganti Domain vps\033[0m"
 echo -e "         ${white}[•2]${NC} ${cyan}ganti Port\033[0m"
@@ -38,7 +41,7 @@ case $opt in
 7) clear ; speedtest ; exit ;;
 8) clear ; menu-webmin ; exit ;; 
 9) clear ; about ; exit ;;
-10) clear ; up ;;
+10) clear ; up ; exit;;
 11) clear ; slow ; exit ;;
 0) clear ; menu ; exit ;;
 x) exit ;;

@@ -4,7 +4,10 @@ echo "Checking VPS"
 aureb=$(cat /home/re_otm)
 clear
 echo " "
-echo "===============-[ ASU-TUNNEL COMMUNITY ]-=============="
+echo -e "╒━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╕${NC}" | lolcat
+		    echo -e "║ \E[37;1;36m      👑 ALVI CELL TUNNEL 👑            \E[0m"
+		    echo -e "╘━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╛${NC}" | lolcat 
+
 echo ""
 echo "------------------------------------------------------------"
 echo ""
@@ -44,7 +47,7 @@ echo ""
 echo ""
 echo "------------------------------------------------------------"
 echo ""
-echo "==========-[ Script Created By ASU TUNNEL ]-==========="
+echo "==========-[ Script Created By ALVI CELL TUNNEL ]-==========="
 echo -e ""
 echo ""
 read -n 1 -s -r -p "Press any key to back on menu"

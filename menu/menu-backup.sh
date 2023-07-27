@@ -16,6 +16,9 @@ Suffix="\033[0m"
 green_background="\033[42;37m"
 red_background="\033[41;37m"
 
+echo -e "╒━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╕${NC}"
+		    echo -e "║ \E[37;1;36m       👑 ALVI CELL TUNNEL 👑            \E[0m"
+		    echo -e "╘━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╛${NC}"
 echo -e "${red_background}Menu Backup${NC}"
 echo
 echo
@@ -36,7 +39,7 @@ figlet "backup"
 backup
 echo "--------------------------------------------------------"
 echo
-echo "${Green}Terimakasih sudah menggunakan layanan script asu-tunnel"
+echo "${Green}Terimakasih sudah menggunakan layanan script Alvi Cell tunnel"
 echo
 echo "--------------------------------------------------------"
 fi
@@ -47,7 +50,7 @@ figlet "Restore" | lolcat
 restore
 echo "--------------------------------------------------------"
 echo
-echo "${Green}Terimakasih sudah menggunakan layanan script asu-tunnel"
+echo "${Green}Terimakasih sudah menggunakan layanan script Alvi Cell tunnel"
 echo
 echo "--------------------------------------------------------"
 fi
@@ -57,7 +60,7 @@ figlet "strt"
 strt
 echo "--------------------------------------------------------"
 echo
-echo "${Green}Terimakasih sudah menggunakan layanan script asu-tunnel"
+echo "${Green}Terimakasih sudah menggunakan layanan script Alvi Cell tunnel"
 echo
 echo "--------------------------------------------------------"
 fi
@@ -66,7 +69,7 @@ then
 limitspeed
 echo "--------------------------------------------------------"
 echo
-echo "${Green}Terimakasih sudah menggunakan layanan script asu-tunnel"
+echo "${Green}Terimakasih sudah menggunakan layanan script Alvi Cell tunnel"
 echo
 echo "--------------------------------------------------------"
 fi
@@ -76,7 +79,7 @@ then
 autobackup
 echo "--------------------------------------------------------"
 echo
-echo "${Green}Terimakasih sudah menggunakan layanan script asu-tunnel"
+echo "${Green}Terimakasih sudah menggunakan layanan script Alvi Cell tunnel"
 echo
 echo "--------------------------------------------------------"
 fi

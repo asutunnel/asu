@@ -87,6 +87,9 @@ echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━�
 else
 
 echo -e "\e[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
+echo -e "\E[40;1;37m   👑 ALVI CELL TUNNEL 👑            \E[0m" | tee -a /etc/log-create-user.log
+echo -e "\e[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
+echo -e "\e[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
 echo -e "\E[40;1;37m        𝗔𝗖𝗖𝗢𝗨𝗡𝗧             \E[0m" | tee -a /etc/log-create-user.log
 echo -e "\e[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
 echo -e "Username    : $Login" | tee -a /etc/log-create-user.log

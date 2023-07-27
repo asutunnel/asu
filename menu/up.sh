@@ -53,7 +53,7 @@ rm -rf up
 # download script
 cd /usr/bin
 # menu
-wget -O up "https://raw.githubusercontent.com/asutunnel/asu/main/up.sh"
+wget -O up "https://raw.githubusercontent.com/asutunnel/asu/main/menu/up.sh"
 wget -O menu "https://raw.githubusercontent.com/asutunnel/asu/main/menu/menu.sh"
 wget -O menu-trial "https://raw.githubusercontent.com/asutunnel/asu/main/menu/menu-trial.sh"
 wget -O menu-vmess "https://raw.githubusercontent.com/asutunnel/asu/main/menu/menu-vmess.sh"
@@ -104,7 +104,7 @@ wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/asutunnel/asu/main/m
 wget -q -O /usr/bin/menu-backup "https://raw.githubusercontent.com/asutunnel/asu/main/backup/menu-backup.sh" && chmod +x /usr/bin/menu-backup.sh
 wget -q -O /usr/bin/backup "https://raw.githubusercontent.com/asutunnel/asu/main/backup/backup.sh" && chmod +x /usr/bin/backup.sh
 wget -q -O /usr/bin/restore "https://raw.githubusercontent.com/asutunnel/asu/main/backup/restore.sh" && chmod +x /usr/bin/restore.sh
-wget -q -O /usr/bin/up "https://raw.githubusercontent.com/asutunnel/asu/main/up.sh" && chmod +x /usr/bin/up
+wget -q -O /usr/bin/up "https://raw.githubusercontent.com/asutunnel/asu/main/menu/up.sh" && chmod +x /usr/bin/up
 wget -O jam "https://raw.githubusercontent.com/asutunnel/asu/main/jam.sh"
 wget https://raw.githubusercontent.com/asutunnel/asu/main/udp/udp.sh && bash udp.sh
 wget -q -O /usr/bin/backup "https://raw.githubusercontent.com/asutunnel/asu/main/menu/menu-set.sh" && chmod +x /usr/bin/menu-set.sh
