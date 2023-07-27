@@ -50,7 +50,7 @@ checking_sc
 clear
 domain=$(cat /etc/xray/domain)
 PUB=$( cat /etc/slowdns/server.pub )
-NS=`cat /etc/xray/dns`
+NS=$(cat /root/nsdomain)
 tls="$(cat ~/log-install.txt | grep -w "Vmess TLS" | cut -d: -f2|sed 's/ //g')"
 none="$(cat ~/log-install.txt | grep -w "Vmess none TLS" | cut -d: -f2|sed 's/ //g')"
 user=trial`</dev/urandom tr -dc X-Z0-9 | head -c4`
