@@ -58,6 +58,9 @@ systemctl restart trojan-go.service
 link="trojan-go://${uuid}@isi_bug_disini:${trgo}/?sni=${domain}&type=ws&host=${domain}&path=%2Ftrojango#$user"
 link1="trojan://${uuid}@isi_bug_disini:${trgo}/?sni=${domain}&type=ws&host=${domain}&path=%2Ftrojango#$user"
 clear
+echo -e "\033[1;93m────────────────────────────────────────────\033[0m"
+echo -e "\033[42m          👑 ALVI CELL TUNNEL 👑         \033[0m"
+echo -e "\033[1;93m────────────────────────────────────────────\033[0m"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
 echo -e "\E[0;41;36m          TROJAN GO          \E[0m" | tee -a /etc/log-create-user.log
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
