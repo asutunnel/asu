@@ -781,6 +781,9 @@ fi
 echo "### ${user} ${exp} ${uuid}" >>/etc/vmess/.vmess.db
 
 clear
+echo -e "\e[1;36m_________________________________________________\033[0m" 
+echo -e "\E[40;1;37m      👑 ALVI CELL TUNNEL 👑                \E[0m"
+echo -e "\e[1;36m________________________________________________\033[0m"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
 echo -e "\\E[0;41;36m        Vmess Account        \E[0m" | tee -a /etc/log-create-user.log
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
