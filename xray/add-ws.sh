@@ -42,7 +42,7 @@ else
 domain=$IP
 fi
 PUB=$( cat /etc/slowdns/server.pub )
-NS=(cat /root/nsdomain)
+NS=$(cat /root/nsdomain)
 
 tls="$(cat ~/log-install.txt | grep -w "Vmess TLS" | cut -d: -f2|sed 's/ //g')"
 none="$(cat ~/log-install.txt | grep -w "Vmess none TLS" | cut -d: -f2|sed 's/ //g')"
