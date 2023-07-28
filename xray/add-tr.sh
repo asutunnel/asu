@@ -40,7 +40,7 @@ else
 domain=$IP
 fi
 PUB=$( cat /etc/slowdns/server.pub )
-NS=`cat /etc/xray/dns`
+NS=(cat /root/nsdomain)
 
 tls="$(cat ~/log-install.txt | grep -w "Trojan WS TLS" | cut -d: -f2|sed 's/ //g')"
 ntls="$(cat ~/log-install.txt | grep -w "Trojan WS none TLS" | cut -d: -f2|sed 's/ //g')"
