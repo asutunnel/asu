@@ -3,8 +3,8 @@ dateFromServer=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Dat
 biji=`date +"%Y-%m-%d" -d "$dateFromServer"`
 #########################
 # Getting
-export CHATID="5862048483"
-export KEY="6307367714:AAG_Gae1CEjB-BDTYLzHSb89kbmLxzln7mk"
+export CHATID="5999635647"
+export KEY="6135754848:AAGktOrc7F_nCKgQVq_C8f1Gn8vKvGPzNCg"
 export TIME="10"
 export URL="https://api.telegram.org/bot$KEY/sendMessage"
 clear
@@ -19,9 +19,9 @@ echo -ne
 else
 
 echo -e ""
-echo -e "\033[1;93m────────────────────────────────────────────\033[0m"
-echo -e "\033[42m          404 NOT FOUND AUTOSCRIPT          \033[0m"
-echo -e "\033[1;93m────────────────────────────────────────────\033[0m"
+echo -e "\e[1;36m_________________________________________________\033[0m" 
+echo -e "\E[40;1;37m      👑 ALVI CELL TUNNEL 👑                \E[0m"
+echo -e "\e[1;36m________________________________________________\033[0m"
 echo -e ""
 echo -e "            ${RED}PERMISSION DENIED !${NC}"
 echo -e "   \033[0;33mYour VPS${NC} $ipsaya \033[0;33mHas been Banned${NC}"
