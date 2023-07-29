@@ -179,14 +179,14 @@ echo ""
 fi
 }
 clear
-echo -e " \033[31m##########\033[33m##########\033[32m##########\033[34m##########\033[35m##########\033[36m##########\e[0m"
+echo -e " \033[31m************************\ 👑 ALVI CELL TUNNEL 👑  \033[34m****************************\e[0m"
 echo -e " \033[31m╭══════════════════════════════════════════════════════════╮\e[0m"
 echo -e " \033[34m│$NC\033[33m                       MENU VMESS                         $NC\033[34m│\e[0m"
 echo -e " \033[33m╰══════════════════════════════════════════════════════════╯\e[0m"
 echo -e " \033[32m╭══════════════════════════════════════════════════════════╮\e[0m"
-echo -e " \033[35m│$NC [01]${NC} \033[0;36m Creating VMESS Account WS/GRPC${NC}"
-echo -e " \033[35m│$NC [02]${NC} \033[0;36m Trial VMESS Account WS/GRPC${NC}"
-echo -e " \033[35m│$NC [03]${NC} \033[0;36m Delete VMESS Account WS/GRPC${NC}"
+echo -e " \033[35m│$NC [01]${NC} \033[0;36m Create Account XRAY Vmess Websocket${NC}"
+echo -e " \033[35m│$NC [02]${NC} \033[0;36m Trial Account XRAY Vmess ${NC}"
+echo -e " \033[35m│$NC [03]${NC} \033[0;36m Delete Account XRAY Vmess Websocket${NC}"
 echo -e " \033[35m│$NC [04]${NC} \033[0;36m Renew VMESS Account${NC}"
 echo -e " \033[35m│$NC [05]${NC} \033[0;36m Check VMESS login Account${NC}"
 echo -e " \033[35m│$NC [06]${NC} \033[0;36m Edit Quota Account ${NC}"
@@ -197,9 +197,9 @@ echo -e " \033[35m│$NC [\e[31m•0\e[0m] \e[31mBACK TO MENU\033[0m"
 echo -e " \033[35m│$NC"
 echo -e " \033[35m│$NC Press x or [ Ctrl+C ] • To-Exit"
 echo -e " \033[36m╰══════════════════════════════════════════════════════════╯\e[0m"
-echo -e " \033[31m##########\033[33m##########\033[32m##########\033[34m##########\033[35m##########\033[36m##########\e[0m"
+echo -e " \033[31m************************\ 👑 ALVI CELL TUNNEL 👑  \033[34m****************************\e[0m"
 echo -e ""
-read -p " Select From Options [ 1 - 8 ] : " menu
+read -p " silakan pilih menu bosku: " menu
 case $menu in
 1) clear ; add-ws ; exit ;;
 2) clear ; trialvmess ; exit ;;
