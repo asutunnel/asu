@@ -17,7 +17,7 @@ echo -e " \033[35m│$NC [01]${NC} \033[0;36m Daftar BOT${NC}"
 echo -e " \033[35m│$NC [02]${NC} \033[0;36m add notifikasi bot${NC}"
 echo -e " \033[35m│$NC [02]${NC} \033[0;36m Chek User Login Bot Trojan${NC}"
 echo -e " \033[35m│$NC [03]${NC} \033[0;36m Chek User Login Bot Vless${NC}"
-echo -e " \033[35m│$NC [04]${NC} \033[0;36m Chek User Login Bot SSH${NC}
+echo -e " \033[35m│$NC [04]${NC} \033[0;36m Chek User Login Bot SSH${NC}"
 echo -e " \033[35m│$NC [05]${NC} \033[0;36m Chek User Login Bot Vmess${NC}"
 echo -e " \033[35m│$NC [06]${NC} \033[0;36m Chek User Login Bot ShadowSock${NC}"
 echo -e " \033[35m│$NC [0]${NC} \033[0;36m Exit${NC}"
