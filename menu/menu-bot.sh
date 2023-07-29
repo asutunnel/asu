@@ -27,7 +27,7 @@ echo -e ""
 read -p " Select From Options [ 1 - 4 ] : " opt
 echo -e ""
 case $opt in
-1) clear ; wget ${BOT} && chmod +x xpanel.sh && ./xpanel.sh ;;
+1) clear ; xpanel ;; exit ;;
 2) clear ; add-bo-notif ; exit ;;
 3) clear ; bot-cek-tr ; exit ;;
 4) clear ; bot-cek-tr ; exit ;;
