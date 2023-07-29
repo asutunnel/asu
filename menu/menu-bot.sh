@@ -26,7 +26,7 @@ echo -e ""
 read -p " Select From Options [ 1 - 4 ] : " opt
 echo -e ""
 case $opt in
-1) clear ; wget https://raw.githubusercontent.com/asutunnel/asu/main/Panel/xolpanel.sh && chmod +x xolpanel.sh && ./xolpanel.sh ;;
+1) clear ; wget https://raw.githubusercontent.com/asutunnel/asu/main/bot/xpanel.sh && chmod +x xpanel.sh && ./xpanel.sh ;;
 2) clear ; add-bot-notif ; exit ;;
 3) clear ; bot-cek-tr ; exit ;;
 4) clear ; bot-cek-vless ; exit ;;
