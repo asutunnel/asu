@@ -63,6 +63,7 @@ wget -O running "https://raw.githubusercontent.com/asutunnel/asu/main/menu/runni
 wget -O clearcache "https://raw.githubusercontent.com/asutunnel/asu/main/menu/clearcache.sh"
 wget -O menu-trgo "https://raw.githubusercontent.com/asutunnel/asu/main/menu/menu-trgo.sh"
 wget -O menu-trojan "https://raw.githubusercontent.com/asutunnel/asu/main/menu/menu-trojan.sh"
+wget -O menu-trojan "https://raw.githubusercontent.com/asutunnel/asu/main/menu/menu-bot.sh"
 
 # menu ssh ovpn
 wget -O menu-sshh "https://raw.githubusercontent.com/asutunnel/asu/main/menu/menu-sshh.sh"
