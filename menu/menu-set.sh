@@ -15,9 +15,9 @@ echo -e "╒━━━━━━━━━━━━━━━━━━━━━━�
 		    echo -e "╘━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╛${NC}" 
 
 echo -e " "
-echo -e "         ${white}[•1]${NC} ${cyan}ganti Domain vps\033[0m"
-echo -e "         ${white}[•2]${NC} ${cyan}ganti Port\033[0m"
-echo -e "         ${white}[•3]${NC} ${cyan}ganti banner\033[0m"
+echo -e "         ${white}[•1]${NC} ${cyan}set Domain vps\033[0m"
+echo -e "         ${white}[•2]${NC} ${cyan}set Port\033[0m"
+echo -e "         ${white}[•3]${NC} ${cyan}set banner\033[0m"
 echo -e "         ${white}[•4]${NC} ${cyan}Restart service\033[0m"
 echo -e "         ${white}[•5]${NC} ${cyan}Cek bandwith\033[0m"
 echo -e "         ${white}[•6]${NC} ${cyan}Atur waktu riset\033[0m"
