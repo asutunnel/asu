@@ -49,6 +49,7 @@ rm -rf backup
 rm -rf restore
 rm -rf jam
 rm -rf up
+rm -rf menu-bot
 
 # download script
 cd /usr/bin
@@ -62,6 +63,7 @@ wget -O running "https://raw.githubusercontent.com/asutunnel/asu/main/menu/runni
 wget -O clearcache "https://raw.githubusercontent.com/asutunnel/asu/main/menu/clearcache.sh"
 wget -O menu-trgo "https://raw.githubusercontent.com/asutunnel/asu/main/menu/menu-trgo.sh"
 wget -O menu-trojan "https://raw.githubusercontent.com/asutunnel/asu/main/menu/menu-trojan.sh"
+wget -O menu-bot "https://raw.githubusercontent.com/asutunnel/asu/main/menu/menu-bot.sh"
 
 # menu ssh ovpn
 wget -O menu-sshh "https://raw.githubusercontent.com/asutunnel/asu/main/menu/menu-sshh.sh"
@@ -88,6 +90,7 @@ wget -O about "https://raw.githubusercontent.com/asutunnel/asu/main/menu/about.s
 wget -O auto-reboot "https://raw.githubusercontent.com/asutunnel/asu/main/menu/auto-reboot.sh"
 wget -O restarts "https://raw.githubusercontent.com/asutunnel/asu/main/menu/restarts.sh"
 wget -O bw "https://raw.githubusercontent.com/asutunnel/asu/main/menu/bw.sh"
+wget -O bw "https://raw.githubusercontent.com/asutunnel/asu/main/menu/menu-bot.sh"
 
 # change port
 wget -O port-ssl "https://raw.githubusercontent.com/asutunnel/asu/main/port/port-ssl.sh"
@@ -130,6 +133,7 @@ chmod +x ceklim
 chmod +x tendang
 
 chmod +x menu-set
+chmod +x menu-bot
 chmod +x menu-domain
 chmod +x add-host
 chmod +x port-change
