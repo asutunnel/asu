@@ -49,6 +49,7 @@ rm -rf backup
 rm -rf restore
 rm -rf jam
 rm -rf up
+rm -rf menu-bot
 
 # download script
 cd /usr/bin
@@ -88,6 +89,7 @@ wget -O about "https://raw.githubusercontent.com/asutunnel/asu/main/menu/about.s
 wget -O auto-reboot "https://raw.githubusercontent.com/asutunnel/asu/main/menu/auto-reboot.sh"
 wget -O restarts "https://raw.githubusercontent.com/asutunnel/asu/main/menu/restarts.sh"
 wget -O bw "https://raw.githubusercontent.com/asutunnel/asu/main/menu/bw.sh"
+wget -O bw "https://raw.githubusercontent.com/asutunnel/asu/main/menu/menu-bot.sh"
 
 # change port
 wget -O port-ssl "https://raw.githubusercontent.com/asutunnel/asu/main/port/port-ssl.sh"
@@ -130,6 +132,7 @@ chmod +x ceklim
 chmod +x tendang
 
 chmod +x menu-set
+chmod +x menu-bot
 chmod +x menu-domain
 chmod +x add-host
 chmod +x port-change
