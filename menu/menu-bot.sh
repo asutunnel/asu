@@ -14,12 +14,12 @@ echo -e " \033[34m│$NC\033[33m                       MENU BOT                 
 echo -e " \033[33m╰══════════════════════════════════════════════════════════╯\e[0m"
 echo -e " \033[32m╭══════════════════════════════════════════════════════════╮\e[0m"
 echo -e " \033[35m│$NC [01]${NC} \033[0;36m Daftar BOT${NC}"
-echo -e " \033[35m│$NC [03]${NC} \033[0;36m add notifikasi bot${NC}"
-echo -e " \033[35m│$NC [04]${NC} \033[0;36m Chek User Login Bot Trojan${NC}"
-echo -e " \033[35m│$NC [05]${NC} \033[0;36m Chek User Login Bot Vless${NC}"
-#echo -e " \033[35m│$NC [06]${NC} \033[0;36m Chek User Login Bot SSH${NC}
-#echo -e " \033[35m│$NC [07]${NC} \033[0;36m Chek User Login Bot Vmess${NC}"
-#echo -e " \033[35m│$NC [08]${NC} \033[0;36m Chek User Login Bot ShadowSock${NC}"
+echo -e " \033[35m│$NC [02]${NC} \033[0;36m add notifikasi bot${NC}"
+echo -e " \033[35m│$NC [02]${NC} \033[0;36m Chek User Login Bot Trojan${NC}"
+echo -e " \033[35m│$NC [03]${NC} \033[0;36m Chek User Login Bot Vless${NC}"
+echo -e " \033[35m│$NC [04]${NC} \033[0;36m Chek User Login Bot SSH${NC}
+echo -e " \033[35m│$NC [05]${NC} \033[0;36m Chek User Login Bot Vmess${NC}"
+echo -e " \033[35m│$NC [06]${NC} \033[0;36m Chek User Login Bot ShadowSock${NC}"
 echo -e " \033[35m│$NC [0]${NC} \033[0;36m Exit${NC}"
 echo -e " \033[36m╰══════════════════════════════════════════════════════════╯\e[0m"
 echo -e " \033[31m##########\033[33m##########\033[32m##########\033[34m##########\033[35m##########\033[36m##########\e[0m"
@@ -30,10 +30,9 @@ case $opt in
 1) clear ; xpanel ;; exit ;;
 2) clear ; add-bo-notif ; exit ;;
 3) clear ; bot-cek-tr ; exit ;;
-4) clear ; bot-cek-tr ; exit ;;
-5) clear ; bot-cek-vless ; exit ;;
-6) clear ; bot-cek-ws ; exit ;;
-7) clear ; bot-cek-ssws ; exit ;;
+4) clear ; bot-cek-vless ; exit ;;
+5) clear ; bot-cek-ws ; exit ;;
+6) clear ; bot-cek-ssws ; exit ;;
 0) clear ; menu ; exit ;;
 x) exit ;;
 esac
