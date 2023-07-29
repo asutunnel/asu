@@ -344,6 +344,6 @@ case $opt in
 8) clear ; menu-backup ;;
 9) clear ; status ;;
 10) clear ; menu-set ;;
-11) clear ; botele ;;
+11) clear ; menu-bot ;;
 x) exit ;;
 esac
