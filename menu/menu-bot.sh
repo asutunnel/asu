@@ -31,8 +31,8 @@ case $opt in
 2) clear ; add-bo-notif ; exit ;;
 3) clear ; bot-cek-tr ; exit ;;
 4) clear ; bot-cek-vless ; exit ;;
-5) clear ; bot-cek-ws ; exit ;;
-6) clear ; bot-cek-ssws ; exit ;;
+5) clear ; bot-member-ssh ; exit ;;
+6) clear ; bot-cek-ws ; exit ;;
 0) clear ; menu ; exit ;;
 x) exit ;;
 esac
