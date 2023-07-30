@@ -248,9 +248,9 @@ echo -e "OpenVPN SSL : 110 http://$IP:81/client-tcp-ssl.ovpn"
 echo -e " Account OpenVPN OHP "
 echo -e "OpenVPN OHP : 8787 http://$MYIP:81/client-tcp-ohp1194.ovpn"
 echo -e "\033[0;34m=================================================\033[0m" | tee -a /etc/log-create-user.log
-echo -e " UDP "
-echo -e "$domen:54-65535/1-65535@$Login:$Pass"
-echo -e "$IP:10000-10150@$Login:$Pass"
+echo -e " Seting UDP :$domen:1-65535@$Login:$Pass"
+echo -e "UDP SSH     :$domen:54-65535@$Login:$Pass"
+echo -e "UDP VIRAL   :$IP:10000-10150@$Login:$Pass"
 echo -e "\033[0;34m=================================================\033[0m" | tee -a /etc/log-create-user.log
 echo -e "Payload WSS" | tee -a /etc/log-create-user.log
 echo -e "
