@@ -328,7 +328,7 @@ clear
                     echo -e "${Kcyan}│${NC}${Kbiru} [4]${NC} 👉 ${red} TROJAN${NC}  " "   ${Kbiru}[9]${NC} 👉 ${red} CEK RUNNING${NC} "   "${Kcyan}${NC}"
                     echo -e "${Kcyan}│${NC}${Kbiru} [5]${NC} 🙋 ${white} Bot    ${NC} " " ${Kbiru}[10]${NC}👉 ${red} MENU SETINGS${NC} " "${Kcyan}${NC}"
                     echo -e "${Kcyan}└───────────────────────────────────────────┘"    
-		    echo -e "${NC}${red}           [11]${NC}  🙋 ${white} Bot tele${NC}  "
+
 echo -e ""
 echo -e   "${white}"
 read -p " Pilih Menu Bosku:"    opt
