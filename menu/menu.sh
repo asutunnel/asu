@@ -326,7 +326,7 @@ clear
                     echo -e "${Kcyan}│${NC}${Kbiru} [2]${NC} 👉 ${red} VMESS${NC}      " "${Kbiru}[7]${NC} 👉 ${red} RESTR SERVICE${NC}"   "${Kcyan}${NC}"  
                     echo -e "${Kcyan}│${NC}${Kbiru} [3]${NC} 👉 ${red} VLESS${NC}      " "${Kbiru}[8]${NC} 👉 ${red} BACKUP MENU${NC}  "   "${Kcyan}${NC}"
                     echo -e "${Kcyan}│${NC}${Kbiru} [4]${NC} 👉 ${red} TROJAN${NC}  " "   ${Kbiru}[9]${NC} 👉 ${red} CEK RUNNING${NC} "   "${Kcyan}${NC}"
-                    echo -e "${Kcyan}│${NC}${Kbiru} [5]${NC} 👉 ${red} TROJAN WS{NC} " " ${Kbiru}[10]${NC} 👉 ${red} MENU SETINGS${NC} " "${Kcyan}${NC}"
+                    echo -e "${Kcyan}│${NC}${Kbiru} [5]${NC} 👉 ${red} TROJAN WS${NC} " " ${Kbiru}[10]${NC}👉 ${red} MENU SETINGS${NC} " "${Kcyan}${NC}"
                     echo -e "${Kcyan}└───────────────────────────────────────────┘"  
 		                        echo -e "${NC}${red}           [•11]${NC}  🙋 ${white} Bot tele${NC}  "
 		    echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
