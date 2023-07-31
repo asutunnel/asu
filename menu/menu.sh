@@ -408,7 +408,7 @@ clear
 		    echo -e "${Kcyan}│${NC} ${white} ISP     ${NC}: $(curl -s ipinfo.io/org | cut -d " " -f 2-10 )" 
                     echo -e "${Kcyan}└───────────────────────────────────────────┘${NC}"  
 		    echo -e "${BICyan} SSH ${NC}:${red} $ressh${NC} "" ${BICyan} NGINX ${NC}:${red} $resngx"" ${BICyan}  XRAY ${NC}:${yellow} $resv2r${NC} "" ${BICyan} TROJAN ${NC}:${red} $resv2r ${NC}"
-		    echo -e "${BICyan}     STUNNEL ${NC}:${red} $resst${NC} " "${BICyan} DROPBEAR ${NC}: ${red}resdbr" "${BICyan} SSH-WS ${NC}:${red} $ressshws${NC} "
+		    echo -e "${BICyan}     STUNNEL ${NC}:${red} $resst${NC} " "${BICyan} DROPBEAR ${NC}: ${red}resdbr${NC}" "${BICyan} SSH-WS ${NC}:${red} $ressshws${NC} "
                     echo -e "${Kcyan}┌───────────────────────────────────────────┐${NC}"
                     echo -e "${Kcyan}│${MK}SSH :${red} $ssh1 ${NC} │${MK}VMES :${red} $vma ${NC} │${MK}VLES :${red} $vla ${NC}|${MK}TROJAN :${red} $tra ${NC}"${Kcyan}│${NC}
                     echo -e "${Kcyan}└───────────────────────────────────────────┘${NC}"
