@@ -87,7 +87,7 @@ echo -e "        ${white}[•7]${NC} ${cyann}Delete User Expired SSH & OpenVPN${
 echo -e "        ${white}[•8]${NC} ${cyann}Set up Autokill SSH${NC}"
 echo -e "        ${white}[•9]${NC} ${cyann}Cek multilogin ssh${NC}"
 echo -e "        ${white}[•10]${NC} ${cyann}lock akun ssh${NC}"
-echo -e "        ${white}[•11]${NC} ${cyann}unlock aku ssh${NC}"
+echo -e "        ${white}[•11]${NC} ${cyann}unlock akun ssh${NC}"
 echo -e "        ${yelow}[•0]${NC} ${yelow}Back To Menu${NC}"
 echo -e "${yelow}"
 read -p " ===>  "  opt

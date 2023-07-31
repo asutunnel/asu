@@ -82,9 +82,9 @@ if [[ -z "$jum" ]]; then
 echo > /dev/null
 else
 jum2=$(cat /tmp/ipvmess.txt | wc -w)
-#byte=$(cat /etc/vmess/${akun})
+byte=$(cat /etc/vmess/${akun})
 lim=$(con ${byte})
-#wey=$(cat /etc/limit/vmess/${akun})
+wey=$(cat /etc/limit/vmess/${akun})
 gb=$(con ${wey})
 lastlogin=$(cat /var/log/xray/access.log | grep -w "$akun" | tail -n 500 | cut -d " " -f 2 | tail -1)
 printf "  %-13s %-7s %-8s %2s\n"   "${akun}" "$lastlogin"  " ${gb}/${lim}"   "  $jum2";

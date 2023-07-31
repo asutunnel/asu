@@ -18,7 +18,7 @@ if [[ $date_list < $useexp ]]; then
 echo -ne
 else
 echo -e "\033[1;93m────────────────────────────────────────────\033[0m"
-echo -e "\033[42m          ALVI CELL AUTOSCRIPT          \033[0m"
+echo -e "\033[42m       👑 ALVI CELL TUNNEL 👑         \033[0m"
 echo -e "\033[1;93m────────────────────────────────────────────\033[0m"
 echo -e ""
 echo -e "            ${RED}PERMISSION DENIED !${NC}"
@@ -124,21 +124,21 @@ echo -e "OHP OpenSSH : 8686" | tee -a /etc/log-create-user.log
 echo -e "OHP OpenVPN : 8787" | tee -a /etc/log-create-user.log
 echo -e "Prot Squid  : $sqd" | tee -a /etc/log-create-user.log
 echo -e "UDPGW VCS   : 7100-7300" | tee -a /etc/log-create-user.log
-echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
+echo -e "\033[0;34m=================================================\033[0m" | tee -a /etc/log-create-user.log
 echo -e " Account OpenVPN "
 echo -e "OpenVPN TCP : 1194 http://$IP:81/client-tcp-1194.ovpn"
 echo -e "OpenVPN UDP : 2200 http://$IP:81/client-udp-2200.ovpn"
 echo -e "OpenVPN SSL : 110 http://$IP:81/client-tcp-ssl.ovpn"
 echo -e " Account OpenVPN OHP "
 echo -e "OpenVPN OHP : 8787 http://$MYIP:81/client-tcp-ohp1194.ovpn"
-echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
+echo -e "\033[0;34m=================================================\033[0m" | tee -a /etc/log-create-user.log
 echo -e " UDP 1 "
 echo -e "$domen:54-65535@$Login:$Pass"
 echo -e " UDP 2 "
 echo -e "$IP:10000-10150@$Login:$Pass"
 echo -e " UDP 3 "
 echo -e "$domen:1-65535@$Login:$Pass"
-echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
+echo -e "\033[0;34m=================================================\033[0m" | tee -a /etc/log-create-user.log
 echo -e "Payload WSS" | tee -a /etc/log-create-user.log
 echo -e "
 GET wss://$sni/ HTTP/1.1[crlf]Host: sshws.$domain[crlf]Upgrade: websocket[crlf]Connection: Keep-Alive[crlf][crlf]
@@ -213,17 +213,18 @@ echo -e "\e[1;36m__________________________________________\033[0m" | tee -a /et
 echo -e "\E[40;1;37m       👑 ALVI CELL TUNNEL 👑                \E[0m" | tee -a /etc/log-create-user.log
 echo -e "\e[1;36m__________________________________________\033[0m" | tee -a /etc/log-create-user.log
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
-echo -e "\E[0;41;36m            SSH Account            \E[0m" | tee -a /etc/log-create-user.log
+echo -e "\E[0;41;36m        INFORMASI AKUN SSH           \E[0m" | tee -a /etc/log-create-user.log
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
 echo -e "Username    : $Login" | tee -a /etc/log-create-user.log
 echo -e "Password    : $Pass" | tee -a /etc/log-create-user.log
 echo -e "Expired On  : $exp" | tee -a /etc/log-create-user.log
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
-echo -e " SSH-SSL-WS : $domen:80/443@$Login:$Pass" | tee -a /etc/log-create-user.log
+echo -e " SSH-SSL-WS : $domen:80@$Login:$Pass" | tee -a /etc/log-create-user.log
+echo -e " SSH-SSL-WS : $domen:443@$Login:$Pass" | tee -a /etc/log-create-user.log
 echo -e "IP          : $IP" | tee -a /etc/log-create-user.log
-echo -e "Host        : $domen" | tee -a /etc/log-create-user.log
-echo -e "Host DNS    : $NS" | tee -a /etc/log-create-user.log
-echo -e "User Quota  : ${Quota} GB" | tee -a /etc/log-create-user.log
+echo -e "domain      : $domen" | tee -a /etc/log-create-user.log
+echo -e "ns Domain   : $NS" | tee -a /etc/log-create-user.log
+echo -e "Limit       : ${Quota} GB" | tee -a /etc/log-create-user.log
 echo -e "PUB KEY     : ${PUB}" | tee -a /etc/log-create-user.log
 echo -e "OpenSSH     : $opensh" | tee -a /etc/log-create-user.log
 echo -e "Dropbear    : $db" | tee -a /etc/log-create-user.log
@@ -237,23 +238,20 @@ echo -e "OpenVPN SSL : 110" | tee -a /etc/log-create-user.log
 echo -e "OHP Dropbear: 8585" | tee -a /etc/log-create-user.log
 echo -e "OHP OpenSSH : 8686" | tee -a /etc/log-create-user.log
 echo -e "OHP OpenVPN : 8787" | tee -a /etc/log-create-user.log
-echo -e "Prot Squid  : $sqd" | tee -a /etc/log-create-user.log
-echo -e "UDPGW   vcs : 7100-7300" | tee -a /etc/log-create-user.log
-echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
+echo -e "Squid       : $sqd" | tee -a /etc/log-create-user.log
+echo -e "UDPGW   vcs : 7200" | tee -a /etc/log-create-user.log
+echo -e "\033[0;34m=================================================\033[0m" | tee -a /etc/log-create-user.log
 echo -e " Account OpenVPN "
 echo -e "OpenVPN TCP : 1194 http://$IP:81/client-tcp-1194.ovpn"
 echo -e "OpenVPN UDP : 2200 http://$IP:81/client-udp-2200.ovpn"
 echo -e "OpenVPN SSL : 110 http://$IP:81/client-tcp-ssl.ovpn"
 echo -e " Account OpenVPN OHP "
 echo -e "OpenVPN OHP : 8787 http://$MYIP:81/client-tcp-ohp1194.ovpn"
-echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
-echo -e " UDP 1 "
-echo -e "$domen:54-65535@$Login:$Pass"
-echo -e " UDP 2 "
-echo -e "$IP:10000-10150@$Login:$Pass"
-echo -e " UDP 3 "
-echo -e "$domen:1-65535@$Login:$Pass"
-echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
+echo -e "\033[0;34m=================================================\033[0m" | tee -a /etc/log-create-user.log
+echo -e " Seting UDP :$domen:1-65535@$Login:$Pass"
+echo -e "UDP SSH     :$domen:54-65535@$Login:$Pass"
+echo -e "UDP VIRAL   :$IP:10000-10150@$Login:$Pass"
+echo -e "\033[0;34m=================================================\033[0m" | tee -a /etc/log-create-user.log
 echo -e "Payload WSS" | tee -a /etc/log-create-user.log
 echo -e "
 GET wss://isi_bug_disini/ HTTP/1.1[crlf]Host: sshws.$domain[crlf]Upgrade: websocket[crlf]Connection: Keep-Alive[crlf][crlf]
@@ -266,9 +264,9 @@ echo -e "PAYLOAD WS OVPN HTTP" | tee -a /etc/log-create-user.log
 echo -e "
 GET wss://isi_bug_disini/ HTTP/1.1[crlf]Host: sshws.$domain[crlf]Upgrade: websocket[crlf]Connection: Keep-Alive[crlf][crlf]
 " | tee -a /etc/log-create-user.log
-echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
+echo -e "\033[0;34m=================================================\033[0m" | tee -a /etc/log-create-user.log
 echo -e "URL TEX  :https://$domen:81/ssh-$Login.txt"
-echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
+echo -e "\033[0;34m=================================================\033[0m" | tee -a /etc/log-create-user.log
 fi
 echo "" | tee -a /etc/log-create-user.log
 read -n 1 -s -r -p "Press any key to back on menu"
