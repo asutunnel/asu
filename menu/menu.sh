@@ -410,7 +410,7 @@ clear
 		    echo -e "${BICyan} SSH ${NC}: $ressh"" ${BICyan} NGINX ${NC}: $resngx"" ${BICyan}  XRAY ${NC}:${yellow} $resv2r"" ${BICyan} TROJAN ${NC}: $resv2r"
 		    echo -e "${BICyan}     STUNNEL ${NC}: $resst" "${BICyan} DROPBEAR ${NC}: $resdbr" "${BICyan} SSH-WS ${NC}: $ressshws"
                     echo -e "${Kcyan}┌───────────────────────────────────────────┐${NC}"
-                    echo -e "${Kcyan}│${MK} SSH :${red} $ssh1 ${NC} │${MK} VMES :${red} $vma ${NC} │${MK} VLES :${red} $vla ${NC}|${MK} TROJAN :${red} $tra ${NC}"${Kcyan}│${NC}
+                    echo -e "${Kcyan}│${MK}SSH :${red} $ssh1 ${NC} │${MK}VMES :${red} $vma ${NC} │${MK}VLES :${red} $vla ${NC}|${MK}TROJAN :${red} $tra ${NC}"${Kcyan}│${NC}
                     echo -e "${Kcyan}└───────────────────────────────────────────┘${NC}"
                     echo -e "${Kcyan}┌───────────────────────────────────────────┐${NC}"
 		    echo -e "${Kcyan}│${NC}${whiteK}        Version  : ${NC}${MK}3.0 last Update"        
