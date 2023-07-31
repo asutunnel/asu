@@ -329,9 +329,9 @@ clear
                     echo -e "${Kcyan}│${NC}${Kbiru} [5]${NC} 👉 ${red} TROJAN WS${NC} " " ${Kbiru}[10]${NC}👉 ${red} MENU SETINGS${NC} " "${Kcyan}${NC}"
                     echo -e "${Kcyan}└───────────────────────────────────────────┘"  
 		                        echo -e "${NC}${red}           [•11]${NC}  🙋 ${white} Bot tele${NC}  "
-		    echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
+		    echo -e "${BICyan} ┌─────────────────────────────────────────┐${NC}"
 		    echo -e "${BICyan} │$NC ${BICyan}HARI ini${NC}: ${red}$ttoday$NC ${BICyan}KEMARIN${NC}: ${red}$tyest$NC ${BICyan}BULAN${NC}: ${red}$tmon $NC"
-		    echo -e "${BICyan} └─────────────────────────────────────────────────────┘${NC}"
+		    echo -e "${BICyan} └─────────────────────────────────────────┘${NC}"
 
 echo -e ""
 echo -e   "${white}"
