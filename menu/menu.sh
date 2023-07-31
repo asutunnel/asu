@@ -407,8 +407,8 @@ clear
                     echo -e "${Kcyan}│${NC} ${white} RAM     ${NC}: $tram Mb"    
 		    echo -e "${Kcyan}│${NC} ${white} ISP     ${NC}: $(curl -s ipinfo.io/org | cut -d " " -f 2-10 )" 
                     echo -e "${Kcyan}└───────────────────────────────────────────┘${NC}"  
-		    echo -e "     ${BICyan} SSH ${NC}: $ressh"" ${BICyan} NGINX ${NC}: $resngx"" ${BICyan}  XRAY ${NC}: $resv2r"" ${BICyan} TROJAN ${NC}: $resv2r"
-		    echo -e "   ${BICyan}     STUNNEL ${NC}: $resst" "${BICyan} DROPBEAR ${NC}: $resdbr" "${BICyan} SSH-WS ${NC}: $ressshws"
+		    echo -e "${BICyan} SSH ${NC}: $ressh"" ${BICyan} NGINX ${NC}: $resngx"" ${BICyan}  XRAY ${NC}: $resv2r"" ${BICyan} TROJAN ${NC}: $resv2r"
+		    echo -e "${BICyan}     STUNNEL ${NC}: $resst" "${BICyan} DROPBEAR ${NC}: $resdbr" "${BICyan} SSH-WS ${NC}: $ressshws"
                     echo -e "${Kcyan}┌───────────────────────────────────────────┐${NC}"
                     echo -e "${Kcyan}│${MK} SSH : $ssh1 │ VMES : $vma │ VLES : $vla │ TROJAN : $tra"${Kcyan}│${NC}
                     echo -e "${Kcyan}└───────────────────────────────────────────┘${NC}"
