@@ -326,11 +326,12 @@ clear
                     echo -e "${Kcyan}│${NC}${Kbiru} [2]${NC} 👉 ${red} VMESS${NC}      " "${Kbiru}[7]${NC} 👉 ${red} RESTR SERVICE${NC}"   "${Kcyan}${NC}"  
                     echo -e "${Kcyan}│${NC}${Kbiru} [3]${NC} 👉 ${red} VLESS${NC}      " "${Kbiru}[8]${NC} 👉 ${red} BACKUP MENU${NC}  "   "${Kcyan}${NC}"
                     echo -e "${Kcyan}│${NC}${Kbiru} [4]${NC} 👉 ${red} TROJAN${NC}  " "   ${Kbiru}[9]${NC} 👉 ${red} CEK RUNNING${NC} "   "${Kcyan}${NC}"
-                    echo -e "${Kcyan}│${NC}${Kbiru} [5]${NC} 🙋 ${red} Bot    ${NC} " " ${Kbiru}[10]${NC}👉 ${red} MENU SETINGS${NC} " "${Kcyan}${NC}"
+                    echo -e "${Kcyan}│${NC}${Kbiru} [5]${NC} 👉 ${red} TROJSN WS{NC} " " ${Kbiru}[10]${NC}👉 ${red} MENU SETINGS${NC} " "${Kcyan}${NC}"
                     echo -e "${Kcyan}└───────────────────────────────────────────┘"    
 		    echo -e "${BICyan} ┌─────────────────────────────────────────────────────┐${NC}"
 		    echo -e "${BICyan} │$NC ${BICyan}HARI ini${NC}: ${red}$ttoday$NC ${BICyan}KEMARIN${NC}: ${red}$tyest$NC ${BICyan}BULAN${NC}: ${red}$tmon $NC"
 		    echo -e "${BICyan} └─────────────────────────────────────────────────────┘${NC}"
+                    echo -e "${NC}${red}           [•11]${NC}  🙋 ${white} Bot tele${NC}  "
 echo -e ""
 echo -e   "${white}"
 read -p " Pilih Menu Bosku:"    opt
@@ -339,8 +340,8 @@ case $opt in
 1) clear ; menu-sshh ;;
 2) clear ; menu-vmess ;;
 3) clear ; menu-vless ;;
-4) clear ; menu-trojann ;;
-5) clear ; menu-bot ;;
+4) clear ; menu-trgo ;;
+5) clear ; menu-trojan  ;;
 6) clear ; passwd ;;
 7) clear ; restarts ;;
 8) clear ; menu-backup ;;
