@@ -424,7 +424,7 @@ clear
                     echo -e "${Kcyan}│${NC}${Kbiru} [2]${NC} 👉 ${red} VMESS${NC}      " "${Kbiru}[7]${NC} 👉 ${red} RESTR SERVICE${NC}"   "${Kcyan}${NC}"  
                     echo -e "${Kcyan}│${NC}${Kbiru} [3]${NC} 👉 ${red} VLESS${NC}      " "${Kbiru}[8]${NC} 👉 ${red} BACKUP MENU${NC}  "   "${Kcyan}${NC}"
                     echo -e "${Kcyan}│${NC}${Kbiru} [4]${NC} 👉 ${red} TROJAN${NC}  " "   ${Kbiru}[9]${NC} 👉 ${red} CEK RUNNING${NC} "   "${Kcyan}${NC}"
-                    echo -e "${Kcyan}│${NC}${Kbiru} [5]${NC} 👉 ${red} TROJAN WS${NC} " " ${Kbiru}[10]${NC}👉 ${red} MENU SETINGS${NC} " "${Kcyan}${NC}"
+                    echo -e "${Kcyan}│${NC}${Kbiru} [5]${NC} 👉 ${red} set Banner${NC} " "${Kbiru}[10]${NC}👉 ${red} MENU SETINGS${NC} " "${Kcyan}${NC}"
                     echo -e "${Kcyan}└───────────────────────────────────────────┘"  
 		                        echo -e "${NC}${red}           [•11]${NC}  🙋 ${white} Bot tele${NC}  "
 		    echo -e "${BICyan} ┌─────────────────────────────────────────┐${NC}"
@@ -439,8 +439,8 @@ case $opt in
 1) clear ; menu-sshh ;;
 2) clear ; menu-vmess ;;
 3) clear ; wget https://raw.githubusercontent.com/asutunnel/asu/main/menu/menu-vless.sh && chmod +x menu-vless.sh && ./menu-vless.sh ;;
-4) clear ; menu-trgo ;;
-5) clear ; menu-trojan  ;;
+4) clear ; menu-trojan ;;
+5) clear ; nano /etc/issue.net ; exit ;;  #ssh-vpn banner.conf
 6) clear ; passwd ;;
 7) clear ; restarts ;;
 8) clear ; menu-backup ;;
