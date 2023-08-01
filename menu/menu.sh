@@ -438,7 +438,7 @@ echo -e   ""
 case $opt in
 1) clear ; menu-sshh ;;
 2) clear ; menu-vmess ;;
-3) clear ; menu-vless ; exit ;;
+3) clear ; menu-vless ; 
 4) clear ; menu-trgo ;;
 5) clear ; menu-trojan  ;;
 6) clear ; passwd ;;
