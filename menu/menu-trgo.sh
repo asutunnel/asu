@@ -103,5 +103,5 @@ case $opt in
 5) clear ; cektrgo ;;
 0) clear ; menu ;;
 x) exit ;;
-*) echo "salah tekan" ; sleep 1 ; menu-trgo ;;
+*) echo "salah tekan" ; sleep 1 ; menu ;;
 esac
