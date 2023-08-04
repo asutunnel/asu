@@ -439,7 +439,7 @@ case $opt in
 1) clear ; menu-sshh ;;
 2) clear ; menu-vmess ;;
 3) clear ; wget https://raw.githubusercontent.com/asutunnel/asu/main/menu/menu-vless.sh && chmod +x menu-vless.sh && ./menu-vless.sh ;;
-4) clear ; menu-trojan ;;
+4) clear ; wget https://raw.githubusercontent.com/asutunnel/asu/main/menu/menu-trojann.sh && chmod +x menu-trojann.sh && ./menu-trojann.sh ;;
 5) clear ; nano /etc/issue.net ; exit ;;  #ssh-vpn banner.conf
 6) clear ; passwd ;;
 7) clear ; restarts ;;
