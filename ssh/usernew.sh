@@ -264,10 +264,8 @@ echo -e "PAYLOAD WS OVPN HTTP" | tee -a /etc/log-create-user.log
 echo -e "
 GET wss://isi_bug_disini/ HTTP/1.1[crlf]Host: sshws.$domain[crlf]Upgrade: websocket[crlf]Connection: Keep-Alive[crlf][crlf]
 " | tee -a /etc/log-create-user.log
-echo -e "\033[0;34m=================================================\033[0m" | tee -a /etc/log-create-user.log
-echo -e "URL TEX  :https://$domen:81/ssh-$Login.txt"
-echo -e "\033[0;34m=================================================\033[0m" | tee -a /etc/log-create-user.log
+
 fi
 echo "" | tee -a /etc/log-create-user.log
-read -n 1 -s -r -p "Press any key to back on menu"
+read -n 1 -s -r -p "Press any key to back on menu Script by Alvi cell"
 menu
