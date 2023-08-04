@@ -88,10 +88,10 @@ echo -e "╒━━━━━━━━━━━━━━━━━━━━━━�
 echo -e "   ${red_background}TROJAN-WS MENU${NC}"
 echo -e ""
 echo -e "        ${white}[•1]${NC} ${cyan}Create Account Trojan ${NC}"
-echo -e "        ${white}[•2]${NC} ${cyan}Create Trial${NC}"
-echo -e "        ${white}[•3]${NC} ${cyan}Xtend account${NC}"
+echo -e "        ${white}[•2]${NC} ${cyan}Create Trial trojan${NC}"
+echo -e "        ${white}[•3]${NC} ${cyan}Xtend account trojan${NC}"
 echo -e "        ${white}[•4]${NC} ${cyan}Delet account${NC}"
-echo -e "        ${white}[•5]${NC} ${cyan}Login Troja${NC}"
+echo -e "        ${white}[•5]${NC} ${cyan}cek Login Troja${NC}"
 echo -e "        ${yelow}[•0]${NC} ${yelow}Back To Menu${NC}"
 echo -e "${yelow}"
 read -p " >>>   " opt
