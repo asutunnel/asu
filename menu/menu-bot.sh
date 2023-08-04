@@ -30,11 +30,11 @@ read -p " silakan pilih menu bosku : " opt
 echo -e ""
 case $opt in
 1) clear ; wget https://raw.githubusercontent.com/asutunnel/asu/main/bot/xpanel.sh && chmod +x xpanel.sh && ./xpanel.sh ;;
-2) clear ; add-bot-notif ; exit ;;
-3) clear ; bot-cek-tr ; exit ;;
-4) clear ; bot-cek-vless ; exit ;;
-5) clear ; bot-member-ssh ; exit ;;
-6) clear ; bot-cek-ws ; exit ;;
+2) clear ; wget https://raw.githubusercontent.com/asutunnel/asu/main/bot/add-bot-notif.sh && chmod +x add-bot-notif.sh && ./add-bot-notif.sh ;;
+3) clear ; wget https://raw.githubusercontent.com/asutunnel/asu/main/bot/bot-cek-tr.sh && chmod +x bot-cek-tr.sh && ./bot-cek-tr.sh ;;
+4) clear ; wget https://raw.githubusercontent.com/asutunnel/asu/main/bot/bot-cek-vless.sh && chmod +x bot-cek-vless.sh && ./bot-cek-vless.sh ;;
+5) clear ; wget https://raw.githubusercontent.com/asutunnel/asu/main/bot/bot-member-ssh.sh && chmod +x bot-member-ssh.sh && ./bot-member-ssh.sh ;;
+6) clear ; wget https://raw.githubusercontent.com/asutunnel/asu/main/bot/bot-cek-ws.sh && chmod +x bot-cek-ws.sh && ./bot-cek-ws.sh ;;
 0) clear ; menu ; exit ;;
 x) exit ;;
 esac
