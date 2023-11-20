@@ -54,7 +54,7 @@ NS=$(cat /root/nsdomain)
 tls="$(cat ~/log-install.txt | grep -w "Vmess TLS" | cut -d: -f2|sed 's/ //g')"
 none="$(cat ~/log-install.txt | grep -w "Vmess none TLS" | cut -d: -f2|sed 's/ //g')"
 user=trial`</dev/urandom tr -dc X-Z0-9 | head -c4`
-uuid=$(cat /proc/sys/kernel/random/uuid)
+uuid=$uuid=$(cat /proc/sys/kernel/brandname/uuid)
 Quota=1
 masaaktif=1
 exp=$(date -d "$masaaktif days" +"%Y-%m-%d")
@@ -76,7 +76,7 @@ asu=`cat<<EOF
       "ps": "${user}",
       "add": "${domain}",
       "port": "443",
-      "id": "${uuid}",
+      "id": "${uuid}-${user}",
       "aid": "0",
       "net": "ws",
       "path": "/vmess",
@@ -91,7 +91,7 @@ ask=`cat<<EOF
       "ps": "${user}",
       "add": "${domain}",
       "port": "80",
-      "id": "${uuid}",
+      "id": "${uuid}-${user}",
       "aid": "0",
       "net": "ws",
       "path": "/vmess",
@@ -106,7 +106,7 @@ grpc=`cat<<EOF
       "ps": "${user}",
       "add": "${domain}",
       "port": "443",
-      "id": "${uuid}",
+      "id": "${uuid}-${user}",
       "aid": "0",
       "net": "grpc",
       "path": "vmess-grpc",
@@ -125,7 +125,7 @@ socks-port: 7891
 redir-port: 7892
 mixed-port: 7893
 tproxy-port: 7895
-ipv6: false
+ipv6: false, 
 mode: rule
 log-level: silent
 allow-lan: true
@@ -158,7 +158,7 @@ proxies:
     server: ${sts}
     port: 443
     type: vmess
-    uuid: ${uuid}
+    uuid: ${uuid}-${user}
     alterId: 0
     cipher: auto
     tls: true
@@ -315,7 +315,7 @@ proxies:
     server: Isi-Bug${domain}
     port: 80
     type: vmess
-    uuid: ${uuid}
+    uuid: ${uuid}-${user}
     alterId: 0
     cipher: auto
     tls: false
@@ -342,7 +342,7 @@ cat > /home/vps/public_html/$user-VmessWsCDN.yaml << EOF
   type: vmess
   server: ${sts}
   port: 443
-  uuid: ${uuid}
+  uuid: ${uuid}-${user}
   alterId: 0
   cipher: auto
   udp: true
@@ -361,7 +361,7 @@ cat > /home/vps/public_html/$user-VmessNWsCDN.yaml << EOF
   type: vmess
   server: ${sts}
   port: 80
-  uuid: ${uuid}
+  uuid: ${uuid}-${user}
   alterId: 0
   cipher: auto
   udp: true
@@ -380,7 +380,7 @@ cat > /home/vps/public_html/$user-VmessGCDN.yaml << EOF
   server: $domain
   port: 443
   type: vmess
-  uuid: $uuid
+  uuid: ${uuid}-${user}
   alterId: 0
   cipher: auto
   network: grpc
@@ -434,7 +434,7 @@ proxies:
     server: ${sts}
     port: 443
     type: vmess
-    uuid: ${uuid}
+    uuid: ${uuid}-${user}
     alterId: 0
     cipher: auto
     tls: true
@@ -592,7 +592,7 @@ proxies:
     server: ${sts}${domain}
     port: 80
     type: vmess
-    uuid: ${uuid}
+    uuid: ${uuid}-${user}
     alterId: 0
     cipher: auto
     tls: false
@@ -619,7 +619,7 @@ rules:
   type: vmess
   server: ${sts}
   port: 443
-  uuid: ${uuid}
+  uuid: ${uuid}-${user}
   alterId: 0
   cipher: auto
   udp: true
@@ -638,7 +638,7 @@ rules:
   type: vmess
   server: ${sts}
   port: 80
-  uuid: ${uuid}
+  uuid: ${uuid}-${user}
   alterId: 0
   cipher: auto
   udp: true
@@ -657,7 +657,7 @@ rules:
   server: ${sts}
   port: 443
   type: vmess
-  uuid: ${uuid}
+  uuid: ${uuid}-${user}
   alterId: 0
   cipher: auto
   network: grpc
@@ -726,7 +726,7 @@ echo -e "OpenClash No Ws: 80"
 echo -e "CDN TLS        : 443"
 echo -e "CDN No TLS     : 80"
 echo -e "CDN Grpc       : 443"
-echo -e "id             : ${uuid}"
+echo -e "id             : ${uuid}-${user}"
 echo -e "alterId        : 0"
 echo -e "Security       : auto"
 echo -e "Network        : ws"
