@@ -77,7 +77,7 @@ if ! grep -q 'ssl_renew.sh' /var/spool/cron/crontabs/root;then (crontab -l;echo 
 mkdir -p /home/vps/public_html
 
 # set uuid
-uuid=$(cat /proc/sys/kernel/random/uuid)
+uuid=$(cat /proc/sys/kernel/brandname/uuid)
 # xray config
 cat > /etc/xray/config.json << END
 {
