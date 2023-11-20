@@ -86,7 +86,7 @@ else
 sni=$bug
 fi
 
-uuid=$(cat /proc/sys/kernel/brandname/uuid)
+uuid=$(cat /proc/sys/kernel/random/uuid)
 read -p "Limit User (GB): " Quota
 read -p "Limit User (IP): " iplim
 read -p "Expired (days): " masaaktif
