@@ -86,7 +86,7 @@ else
 sni=$bug
 fi
 
-uuid=$(cat /proc/sys/kernel/random/uuid)
+uuid=$(cat /proc/sys/kernel/brandname/uuid)
 read -p "Limit User (GB): " Quota
 read -p "Limit User (IP): " iplim
 read -p "Expired (days): " masaaktif
@@ -112,7 +112,7 @@ asu=`cat<<EOF
       "ps": "${user}",
       "add": "${domain}",
       "port": "443",
-      "id": "${uuid}",
+      "id": "${uuid}-${user}",
       "aid": "0",
       "net": "ws",
       "path": "/vmess",
@@ -127,7 +127,7 @@ ask=`cat<<EOF
       "ps": "${user}",
       "add": "${domain}",
       "port": "80",
-      "id": "${uuid}",
+      "id": "${uuid}-${user}",
       "aid": "0",
       "net": "ws",
       "path": "/vmess",
@@ -142,7 +142,7 @@ grpc=`cat<<EOF
       "ps": "${user}",
       "add": "${domain}",
       "port": "443",
-      "id": "${uuid}",
+      "id": "${uuid}-${user}",
       "aid": "0",
       "net": "grpc",
       "path": "vmess-grpc",
@@ -194,7 +194,7 @@ proxies:
     server: ${sts}
     port: 443
     type: vmess
-    uuid: ${uuid}
+    uuid: ${uuid}-${user}
     alterId: 0
     cipher: auto
     tls: true
@@ -378,7 +378,7 @@ cat > /home/vps/public_html/$user-VmessWsCDN.yaml << EOF
   type: vmess
   server: ${sts}
   port: 443
-  uuid: ${uuid}
+  uuid: ${uuid}-${user}
   alterId: 0
   cipher: auto
   udp: true
@@ -397,7 +397,7 @@ cat > /home/vps/public_html/$user-VmessNWsCDN.yaml << EOF
   type: vmess
   server: ${sts}
   port: 80
-  uuid: ${uuid}
+  uuid: ${uuid}-${user}}
   alterId: 0
   cipher: auto
   udp: true
@@ -416,7 +416,7 @@ cat > /home/vps/public_html/$user-VmessGCDN.yaml << EOF
   server: $domain
   port: 443
   type: vmess
-  uuid: $uuid
+  uuid: ${uuid}-${user}
   alterId: 0
   cipher: auto
   network: grpc
@@ -470,7 +470,7 @@ proxies:
     server: ${sts}
     port: 443
     type: vmess
-    uuid: ${uuid}
+    uuid: ${uuid}-${user}
     alterId: 0
     cipher: auto
     tls: true
@@ -628,7 +628,7 @@ proxies:
     server: ${sts}${domain}
     port: 80
     type: vmess
-    uuid: ${uuid}
+    uuid: ${uuid}-${user}
     alterId: 0
     cipher: auto
     tls: false
@@ -655,7 +655,7 @@ rules:
   type: vmess
   server: ${sts}
   port: 443
-  uuid: ${uuid}
+  uuid: ${uuid}-${user}
   alterId: 0
   cipher: auto
   udp: true
@@ -674,7 +674,7 @@ rules:
   type: vmess
   server: ${sts}
   port: 80
-  uuid: ${uuid}
+  uuid: ${uuid}-${user}
   alterId: 0
   cipher: auto
   udp: true
@@ -693,7 +693,7 @@ rules:
   server: ${sts}
   port: 443
   type: vmess
-  uuid: ${uuid}
+  uuid: ${uuid}-${user}
   alterId: 0
   cipher: auto
   network: grpc
@@ -732,7 +732,7 @@ TEXT="
 <code>Port DNS     : 443, 53</code>
 <code>Port NTLS    : 80</code>
 <code>Port GRPC    : 443</code>
-<code>User ID      : ${uuid}</code>
+<code>User ID      : ${uuid}-${user}</code>
 <code>AlterId      : 0</code>
 <code>Security     : auto</code>
 <code>Network      : WS or gRPC</code>
@@ -802,7 +802,7 @@ echo -e "OpenClash No Ws: 80" | tee -a /etc/log-create-user.log
 echo -e "CDN TLS        : 443" | tee -a /etc/log-create-user.log
 echo -e "CDN No TLS     : 80" | tee -a /etc/log-create-user.log
 echo -e "CDN Grpc       : 443" | tee -a /etc/log-create-user.log
-echo -e "id             : ${uuid}" | tee -a /etc/log-create-user.log
+echo -e "id             : ${uuid}-${user}" | tee -a /etc/log-create-user.log
 echo -e "alterId        : 0" | tee -a /etc/log-create-user.log
 echo -e "Security       : auto" | tee -a /etc/log-create-user.log
 echo -e "Network        : ws" | tee -a /etc/log-create-user.log
